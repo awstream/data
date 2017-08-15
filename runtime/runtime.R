@@ -6,7 +6,7 @@ library(reshape2)
 
 f <- "darknet.runtime.csv"  ## darknet.runtime.csv
 runtime.data <- read.csv(f)
-legends <- c("time", "AWStream", "JetStream",
+legends <- c("time", "AwStream", "JetStream",
              "Streaming over TCP",
              "Streaming over UDP")
 
