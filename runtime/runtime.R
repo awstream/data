@@ -4,14 +4,14 @@ library(cowplot)
 library(ggsci)
 library(reshape2)
 
-f <- "darknet.runtime.csv"  ## darknet.runtime.csv
+f <- "mot.runtime.csv"  ## darknet.runtime.csv
 runtime.data <- read.csv(f)
 legends <- c("time", "AwStream", "JetStream",
              "Streaming over TCP",
              "Streaming over UDP")
 
 ## Create a test plot with proper size
-dev.new(width=6, height=2.4)
+dev.new(width=7, height=2.3)
 
 ##
 ## Bandwidth (throughput)
@@ -48,12 +48,12 @@ latency$value <- latency$value / 1000
 
 ## Now we break it into two parts
 l <- latency
-split <- 2.0
+split <- 1.2
 
-l$value[which(l$value > split)[1]] <- 1.99
-l$value[which(l$value > split)[1]] <- 2.01
-l$value[rev(which(l$value > split))[1]] <- 1.99
-l$value[rev(which(l$value > split))[1]] <- 2.01
+l$value[which(l$value > split)[1]] <- 1.19
+l$value[which(l$value > split)[1]] <- 1.21
+l$value[rev(which(l$value > split))[1]] <- 1.19
+l$value[rev(which(l$value > split))[1]] <- 1.21
 l$value[l$time == 400 & l$variable == "Streaming over TCP"] <- NA
 
 l$mask <- 1
@@ -63,7 +63,7 @@ transform <- function(i) log10(i) + split + 1
 inverse <- function(i) 10 ^ (i - split - 1)
 l$value[l$mask == 0] <- transform(l$value[l$mask == 0])
 
-breaks <- c(0, 1.0, 2.0, transform(2.0), transform(10.0), transform(100))
+breaks <- c(0, 0.6, 1.2, transform(1.2), transform(10.0), transform(100))
 labels <- breaks
 labels[labels > split] <- inverse(labels[labels > split])
 labels <- sapply(labels, function(l) if (l == 100) {
@@ -118,9 +118,8 @@ pcol <- plot_grid(bw.plot + theme(legend.position="none"),
 
 legend <- get_legend(bw.plot + theme(legend.position="top",
                                      legend.title = element_blank()))
-p <- plot_grid(legend, pcol, ncol = 1, rel_heights = c(.1, 1))
+p <- plot_grid(legend, pcol, ncol = 1, rel_heights = c(.11, 1))
 
-
-pdf("runtime-darknet-verticle.pdf", width=7, height=7)
+pdf("runtime-mot-verticle.pdf", width=7, height=7)
 p
 dev.off()

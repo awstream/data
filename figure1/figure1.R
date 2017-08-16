@@ -52,14 +52,23 @@ mnl.ell <- ellipse(cor(x, y),
                    centre=c(mean(x),mean(y)))
 mnl.contour <- cbind(as.data.frame(mnl.ell), group="MNL")
 
+x <- log10(data$jet.latency)
+y <- data$jet.accuracy
+point <- rbind(point, data.frame(x=x, y=y, g="JET"))
+center <- rbind(center, data.frame(x=median(x),y=median(y), g="JET"))
+jet.center <- c(median(x), median(y))
+jet.ell <- ellipse(cor(x, y),
+                   scale=c(sd(x), sd(y)),
+                   centre=c(mean(x),mean(y)))
+jet.contour <- cbind(as.data.frame(jet.ell), group="JET")
+
 df <- data.frame()
-df <- rbind(df, tcp.contour, ads.contour, udp.contour, app.contour, mnl.contour)
+df <- rbind(df, tcp.contour, ads.contour, udp.contour, app.contour, mnl.contour, jet.contour)
 
 dev.new(width=5, height=2.6)
 
 p <- ggplot() +
-    geom_polygon(data=df, aes(x=x, y=y, fill=group), alpha=0.3) +
-    scale_fill_lancet() +
+    geom_polygon(data=df, aes(x=x, y=y, fill=group), alpha=0.5) +
     geom_point(data=center, aes(x=x, y=y),
                size=3, shape=21, colour="black", fill="white", stroke=1) +
     scale_x_reverse(breaks=c(5, 4, 3, 2, 1), labels=c(100, 10, 1, 0.1, 0.01)) +
@@ -74,16 +83,16 @@ p <- ggplot() +
              label = "Streaming", size = 4) +
     annotate(geom = "text", x = tcp.center[1] + 0.2, y = tcp.center[2] - 0.2,
              label = "over TCP", size = 4) +
-    annotate(geom = "text", x = ads.center[1], y = ads.center[2] - 0.1,
+    annotate(geom = "text", x = ads.center[1] - 0.2, y = ads.center[2] + 0.1,
              label = "AWStream", size = 4) +
+    annotate(geom = "text", x = jet.center[1] - 0.4, y = jet.center[2] - 0.1,
+             label = "JetStream", size = 4) +
     annotate(geom = "text", x = mnl.center[1] + 0.1, y = mnl.center[2] - 0.1,
              label = "Manual", size = 4) +
-    annotate(geom = "text", x = app.center[1] - 0.7, y = app.center[2] - 0.12,
+    annotate(geom = "text", x = app.center[1] - 0.1, y = app.center[2] - 0.12,
              label = "Application-specific", size = 4) +
-    annotate(geom = "text", x = app.center[1] - 0.75, y = app.center[2] - 0.23,
+    annotate(geom = "text", x = app.center[1] - 0.25, y = app.center[2] - 0.23,
              label = "(a different application)", size = 4) +
-    ## annotate(geom = "text", x = app.center[1] - 0.6, y = app.center[2],
-    ##          label = "APP", size = 4) +
     geom_segment(
         aes(x = 5.2, y = 0.07, xend = 4.5, yend = 0.28),
         arrow = arrow(length = unit(0.05, "npc"))
@@ -91,6 +100,7 @@ p <- ggplot() +
     annotate(geom = "text", x = 4.95, y = 0.25, label = "Better", size = 5,
              angle = 30) +
     academic_paper_theme() +
+    scale_fill_lancet() +
     theme(legend.position="none")
 p
 
