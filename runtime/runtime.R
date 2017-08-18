@@ -4,9 +4,9 @@ library(cowplot)
 library(ggsci)
 library(reshape2)
 
-f <- "mot.runtime.csv"  ## darknet.runtime.csv
+f <- "darknet.runtime.csv"  ## darknet.runtime.csv
 runtime.data <- read.csv(f)
-legends <- c("time", "AwStream", "JetStream",
+legends <- c("time", "AwStream", "JetStream++",
              "Streaming over TCP",
              "Streaming over UDP")
 
@@ -28,11 +28,10 @@ bw.plot <- ggplot(bw, aes(x=time, y=value, colour=variable, shape=variable)) +
     geom_point() +
     geom_line(linetype=2) +
     xlab("") +
-    ylab("Throughput (mbps)") +
+    ylab("Throughput\n(mbps)") +
     xlim(30, 650) +
     scale_y_continuous(limits = c(0, 25), labels=function(x) format(x, nsmall=1)) +
     academic_paper_theme() +
-    theme(legend.position="none") +
     scale_color_jco()
 bw.plot
 
@@ -48,13 +47,13 @@ latency$value <- latency$value / 1000
 
 ## Now we break it into two parts
 l <- latency
-split <- 1.2
+split <- 2
 
-l$value[which(l$value > split)[1]] <- 1.19
-l$value[which(l$value > split)[1]] <- 1.21
-l$value[rev(which(l$value > split))[1]] <- 1.19
-l$value[rev(which(l$value > split))[1]] <- 1.21
-l$value[l$time == 400 & l$variable == "Streaming over TCP"] <- NA
+l$value[which(l$value > split)[1]] <- split - 0.01
+l$value[which(l$value > split)[1]] <- split + 0.01
+l$value[rev(which(l$value > split))[1]] <- split - 0.01
+l$value[rev(which(l$value > split))[1]] <- split + 0.01
+l$value[l$time == 435 & l$variable == "Streaming over TCP"] <- NA
 
 l$mask <- 1
 l$mask[l$value > split] <- 0
@@ -63,7 +62,7 @@ transform <- function(i) log10(i) + split + 1
 inverse <- function(i) 10 ^ (i - split - 1)
 l$value[l$mask == 0] <- transform(l$value[l$mask == 0])
 
-breaks <- c(0, 0.6, 1.2, transform(1.2), transform(10.0), transform(100))
+breaks <- c(0, split / 2, split, transform(split), transform(10.0), transform(100))
 labels <- breaks
 labels[labels > split] <- inverse(labels[labels > split])
 labels <- sapply(labels, function(l) if (l == 100) {
@@ -78,7 +77,7 @@ latency.plot <- ggplot(l, aes(x=time, y=value, colour=variable, shape=variable))
     facet_grid(mask ~ ., scales="free") +
     scale_y_continuous(breaks=breaks, labels=labels, expand=c(0.075,0)) +
     xlab("") +
-    ylab("Latency (seconds)") +
+    ylab("Latency\n(seconds)") +
     xlim(30, 650) +
     academic_paper_theme() +
     theme(legend.position = "none",
@@ -96,11 +95,13 @@ accuracy <- runtime.data[,c("time", "ads.accuracy",
                             "udp.accuracy" )]
 names(accuracy) <- legends
 accuracy <- melt(accuracy, id.vars="time")
-accuracy.plot <- ggplot(accuracy, aes(x=time, y=value, colour=variable, shape=variable)) +
+
+accuracy.plot <- ggplot(accuracy, aes(x=time, y=value,
+                                      colour=variable, shape=variable)) +
     geom_point() +
     geom_line(linetype=2) +
     xlab("Time (seconds)") +
-    ylab("Accuracy (F1 Score)") +
+    ylab("Accuracy\n(F1 Score)") +
     xlim(30, 650) +
     scale_y_continuous(limits = c(0, 1), labels=function(x) format(x, nsmall=1)) +
     academic_paper_theme() +
@@ -116,10 +117,18 @@ pcol <- plot_grid(bw.plot + theme(legend.position="none"),
                   accuracy.plot + theme(legend.position="none"),
                   align = 'vh', ncol = 1)
 
-legend <- get_legend(bw.plot + theme(legend.position="top",
-                                     legend.title = element_blank()))
-p <- plot_grid(legend, pcol, ncol = 1, rel_heights = c(.11, 1))
+bw.plot + theme(legend.position="top",
+                legend.title = element_blank())
 
-pdf("runtime-mot-verticle.pdf", width=7, height=7)
+legend <- get_legend(bw.plot +
+                     theme(legend.position="top",
+                           legend.title = element_blank()))
+#                     guides(colour=guide_legend(nrow=2,byrow=TRUE))
+
+
+p <- plot_grid(legend, pcol, ncol = 1, rel_heights = c(.14, 1))
+p
+
+pdf("runtime-darknet-verticle.pdf", width=7, height=6)
 p
 dev.off()

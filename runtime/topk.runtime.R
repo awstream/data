@@ -1,5 +1,6 @@
 #!/usr/bin/env Rscript
 
+library(cowplot)
 library(reshape2)
 library(ggsci)
 
@@ -22,11 +23,10 @@ bw.plot <- ggplot(bw, aes(x=time, y=value, colour=variable, shape=variable)) +
     geom_point(size=1.4, alpha=0.8) +
     geom_line(linetype=2) +
     xlab("") +
-    ylab("Throughput (mbps)") +
+    ylab("Throughput\n(mbps)") +
     xlim(30, 650) +
     scale_y_continuous(limits = c(0, 3.0), labels=function(x) format(x, nsmall=2)) +
     academic_paper_theme() +
-    theme(legend.position="none") +
     scale_color_jco()
 bw.plot
 
@@ -67,10 +67,10 @@ labels <- sapply(labels, function(l) if (l == 100) {
 latency.plot <- ggplot(l, aes(x=time, y=value, colour=variable, shape=variable)) +
     geom_point() +
     geom_line(linetype=2) +
-    xlab("") +
-    ylab("Latency (seconds)") +
-    xlim(30, 650) +
     facet_grid(mask ~ ., scales="free") +
+    xlab("") +
+    ylab("Latency\n(seconds)") +
+    xlim(30, 650) +
     scale_y_continuous(breaks=breaks, labels=labels, expand=c(0.075,0)) +
     academic_paper_theme() +
     theme(legend.position = "none",
@@ -91,7 +91,7 @@ accuracy.plot <- ggplot(accuracy,
     geom_point() +
     geom_line(linetype=2) +
     xlab("Time (seconds)") +
-    ylab("Accuracy (Kendall's tau)") +
+    ylab("Accuracy\n(Kendall's tau)") +
     xlim(30, 650) +
     scale_y_continuous(limits = c(0, 1), labels=function(x) format(x, nsmall=1)) +
     academic_paper_theme() +
@@ -99,16 +99,27 @@ accuracy.plot <- ggplot(accuracy,
     scale_color_jco()
 accuracy.plot
 
+
 ##
-## Final plot
+## Final plot uses cowplot to arrange everything
 ##
-pdf("runtime-topk-verticle.pdf", width=4, height=6.9)
+pcol <- plot_grid(bw.plot + theme(legend.position="none"),
+                  latency.plot + theme(legend.position="none"),
+                  accuracy.plot + theme(legend.position="none"),
+                  align = 'vh', ncol = 1)
 
-dev.new(width=4, height=6.9)
+bw.plot + theme(legend.position="top",
+                legend.title = element_blank())
 
-multiplot(bw.plot + theme(legend.position="none"),
-          latency.plot + theme(legend.position="none"),
-          accuracy.plot + theme(legend.position="none"),
-          cols=1)
+legend <- get_legend(bw.plot +
+                     theme(legend.position="top",
+                           legend.title = element_blank()) +
+                     guides(colour=guide_legend(nrow=2,byrow=TRUE))
+                     )
 
+p <- plot_grid(legend, pcol, ncol = 1, rel_heights = c(.15, 1))
+p
+
+pdf("runtime-topk-verticle.pdf", width=5, height=6)
+p
 dev.off()
