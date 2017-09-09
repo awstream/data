@@ -1,0 +1,1299 @@
+INDEX 0 Connection from (58,5) on 34.211.69.85:52564
+INDEX 1 Connection from (58,3) on 13.59.206.178:48316
+INDEX 2 Connection from (58,7) on 52.87.172.41:49106
+1504888099238 3737505 bytes. 72 images. 64.9722 (mean) 42 (median) 211 (95th) 273 (global-99.9) 114585 (src_dev;global) 275 (max) 3 nodes
+BYNODE: 1405106 1192069 1140330
+1504888100238 4680010 bytes. 91 images. 41.5604 (mean) 36 (median) 60 (95th) 273 (global-99.9) 95837.5 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 2941373 2738071 2738071
+1504888101238 5082074 bytes. 91 images. 39.9011 (mean) 37 (median) 60 (95th) 273 (global-99.9) 91761.5 (src_dev;global) 64 (max) 3 nodes
+BYNODE: 4625054 4466859 4407676
+1504888102238 4969224 bytes. 89 images. 40.5393 (mean) 34 (median) 60 (95th) 273 (global-99.9) 112572 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 6300141 6143368 6025304
+1504888103238 6194384 bytes. 89 images. 44.4157 (mean) 46 (median) 60 (95th) 273 (global-99.9) 140091 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 8416350 8152339 8094508
+1504888104239 5232858 bytes. 90 images. 44.2889 (mean) 44 (median) 60 (95th) 273 (global-99.9) 113407 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 10123725 9908080 9864250
+1504888105239 5647420 bytes. 90 images. 46.0667 (mean) 44 (median) 60 (95th) 273 (global-99.9) 136660 (src_dev;global) 73 (max) 3 nodes
+BYNODE: 12038591 11779277 11725607
+1504888106239 5318203 bytes. 91 images. 44.2088 (mean) 44 (median) 60 (95th) 273 (global-99.9) 112274 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 13764189 13607363 13490126
+1504888107240 5007889 bytes. 90 images. 43.8444 (mean) 42 (median) 60 (95th) 273 (global-99.9) 107360 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 15429002 15272895 15167670
+1504888108240 4590139 bytes. 90 images. 43.3111 (mean) 42 (median) 60 (95th) 273 (global-99.9) 97237.1 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 16943995 16809171 16706540
+1504888109241 4035800 bytes. 90 images. 43.4333 (mean) 40 (median) 60 (95th) 273 (global-99.9) 102132 (src_dev;global) 70 (max) 3 nodes
+BYNODE: 18300456 18141336 18053714
+1504888110241 4568176 bytes. 90 images. 43.0333 (mean) 41 (median) 60 (95th) 241 (global-99.9) 104240 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 19822804 19671901 19568977
+1504888111242 4199495 bytes. 90 images. 42.9667 (mean) 42 (median) 60 (95th) 241 (global-99.9) 98506.8 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 21217734 21066066 20979377
+1504888112243 4293331 bytes. 90 images. 43.2 (mean) 41 (median) 60 (95th) 241 (global-99.9) 94897.4 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 22643058 22500713 22412737
+1504888113243 4083327 bytes. 90 images. 42.4333 (mean) 40 (median) 60 (95th) 241 (global-99.9) 89128.5 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 23994192 23868936 23776707
+1504888114244 4106774 bytes. 90 images. 42.9889 (mean) 40 (median) 60 (95th) 241 (global-99.9) 113915 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 25394166 25236484 25115959
+1504888115245 4999495 bytes. 90 images. 43.9222 (mean) 42 (median) 60 (95th) 241 (global-99.9) 129478 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 27082801 26895851 26767452
+1504888116245 6008108 bytes. 90 images. 45.7444 (mean) 44 (median) 60 (95th) 241 (global-99.9) 141347 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 29095870 28908285 28750057
+1504888117246 4689494 bytes. 89 images. 43.7978 (mean) 42 (median) 60 (95th) 241 (global-99.9) 147904 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 30663396 30479186 30301124
+1504888118247 5067336 bytes. 91 images. 43 (mean) 41 (median) 60 (95th) 241 (global-99.9) 153786 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 32367588 32151082 31992372
+1504888119247 4945119 bytes. 90 images. 45.2778 (mean) 42 (median) 60 (95th) 241 (global-99.9) 163088 (src_dev;global) 87 (max) 3 nodes
+BYNODE: 34033703 33783570 33638888
+1504888120248 4438801 bytes. 91 images. 43.3407 (mean) 41 (median) 60 (95th) 241 (global-99.9) 118707 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 35459192 35259445 35176325
+1504888121249 4050372 bytes. 90 images. 42.7 (mean) 41 (median) 60 (95th) 241 (global-99.9) 111497 (src_dev;global) 64 (max) 3 nodes
+BYNODE: 36798182 36616373 36530779
+1504888122249 4320745 bytes. 90 images. 43.4111 (mean) 41 (median) 60 (95th) 241 (global-99.9) 144716 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 38283295 38046272 37936512
+1504888123250 5374393 bytes. 89 images. 44.5169 (mean) 42 (median) 60 (95th) 241 (global-99.9) 182240 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 40113589 39858042 39668841
+1504888124250 5856614 bytes. 90 images. 46.1556 (mean) 46 (median) 60 (95th) 241 (global-99.9) 195262 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 42082204 41809299 41605583
+1504888125251 6152128 bytes. 90 images. 46.0889 (mean) 46 (median) 60 (95th) 241 (global-99.9) 210142 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 44151735 43858759 43638720
+1504888126252 4922904 bytes. 90 images. 43.8889 (mean) 42 (median) 60 (95th) 241 (global-99.9) 145654 (src_dev;global) 62 (max) 3 nodes
+BYNODE: 45710358 45506951 45354809
+1504888127252 5080356 bytes. 90 images. 43.9333 (mean) 42 (median) 60 (95th) 241 (global-99.9) 144516 (src_dev;global) 62 (max) 3 nodes
+BYNODE: 47398954 47208189 47045331
+1504888128253 4440893 bytes. 90 images. 43.0333 (mean) 41 (median) 60 (95th) 241 (global-99.9) 129921 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 48863748 48683091 48546528
+1504888129254 3817099 bytes. 92 images. 43.5217 (mean) 41 (median) 60 (95th) 241 (global-99.9) 79925.3 (src_dev;global) 68 (max) 3 nodes
+BYNODE: 50065415 49975216 49869835
+1504888130254 3386977 bytes. 89 images. 42.3034 (mean) 39 (median) 60 (95th) 241 (global-99.9) 113089 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 51230017 51113328 50954098
+1504888131255 4325737 bytes. 91 images. 43.6923 (mean) 40 (median) 60 (95th) 241 (global-99.9) 119164 (src_dev;global) 73 (max) 3 nodes
+BYNODE: 52688390 52538251 52396539
+1504888132256 4647866 bytes. 89 images. 43.2247 (mean) 42 (median) 60 (95th) 209 (global-99.9) 161390 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 54278788 54107656 53884602
+1504888133257 5743740 bytes. 90 images. 45.4667 (mean) 44 (median) 60 (95th) 209 (global-99.9) 184596 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 56217240 56030326 55767220
+1504888134257 4963583 bytes. 90 images. 43.6111 (mean) 41 (median) 60 (95th) 209 (global-99.9) 170574 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 57859077 57676937 57442355
+1504888135258 5071885 bytes. 89 images. 43.9326 (mean) 42 (median) 60 (95th) 209 (global-99.9) 163561 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 59551830 59347205 59151219
+1504888136258 5071488 bytes. 90 images. 44.5333 (mean) 42 (median) 60 (95th) 209 (global-99.9) 166220 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 61257353 61010942 60853447
+1504888137259 5755723 bytes. 90 images. 45.6667 (mean) 44 (median) 60 (95th) 209 (global-99.9) 196097 (src_dev;global) 63 (max) 3 nodes
+BYNODE: 63209609 62937057 62730799
+1504888138260 5881894 bytes. 90 images. 45.4333 (mean) 44 (median) 60 (95th) 209 (global-99.9) 184047 (src_dev;global) 62 (max) 3 nodes
+BYNODE: 65152635 64904090 64702634
+1504888139260 5609476 bytes. 91 images. 46.2967 (mean) 44 (median) 68 (95th) 209 (global-99.9) 183057 (src_dev;global) 83 (max) 3 nodes
+BYNODE: 67004647 66806932 66557256
+1504888140261 5283985 bytes. 90 images. 44.4556 (mean) 42 (median) 60 (95th) 209 (global-99.9) 170238 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 68749121 68570233 68333466
+1504888141261 4650975 bytes. 90 images. 43.6333 (mean) 41 (median) 60 (95th) 209 (global-99.9) 144768 (src_dev;global) 74 (max) 3 nodes
+BYNODE: 70271586 70114490 69917719
+1504888142262 4772046 bytes. 89 images. 43.6629 (mean) 42 (median) 60 (95th) 209 (global-99.9) 157247 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 71891924 71676201 71507716
+1504888143262 4866887 bytes. 90 images. 43.7889 (mean) 42 (median) 60 (95th) 181 (global-99.9) 137594 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 73491061 73296187 73155480
+1504888144263 4862901 bytes. 90 images. 43.9111 (mean) 42 (median) 60 (95th) 181 (global-99.9) 162300 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 75140896 74920580 74744153
+1504888145264 5399078 bytes. 90 images. 44.6444 (mean) 42 (median) 60 (95th) 181 (global-99.9) 158505 (src_dev;global) 64 (max) 3 nodes
+BYNODE: 76938393 76714579 76551735
+1504888146265 5192193 bytes. 90 images. 43.8333 (mean) 42 (median) 60 (95th) 181 (global-99.9) 156364 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 78662621 78454153 78280126
+1504888147265 5405077 bytes. 90 images. 44.8222 (mean) 42 (median) 60 (95th) 181 (global-99.9) 176711 (src_dev;global) 63 (max) 3 nodes
+BYNODE: 80495675 80241086 80065216
+1504888148266 4999365 bytes. 91 images. 43.7143 (mean) 42 (median) 60 (95th) 181 (global-99.9) 162494 (src_dev;global) 63 (max) 3 nodes
+BYNODE: 82123942 81950439 81726961
+1504888149267 5522703 bytes. 90 images. 46.2222 (mean) 44 (median) 62 (95th) 181 (global-99.9) 189893 (src_dev;global) 83 (max) 3 nodes
+BYNODE: 83996421 83795009 83532615
+1504888150268 5756643 bytes. 91 images. 45.2308 (mean) 44 (median) 60 (95th) 181 (global-99.9) 166426 (src_dev;global) 67 (max) 3 nodes
+BYNODE: 85894571 85699093 85487024
+1504888151268 5450418 bytes. 89 images. 45.1348 (mean) 42 (median) 60 (95th) 181 (global-99.9) 178866 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 87714166 87538238 87278702
+1504888152269 4820187 bytes. 90 images. 43.6889 (mean) 42 (median) 60 (95th) 181 (global-99.9) 156857 (src_dev;global) 63 (max) 3 nodes
+BYNODE: 89298109 89137643 88915541
+1504888153269 4285272 bytes. 89 images. 42.9663 (mean) 42 (median) 60 (95th) 181 (global-99.9) 129714 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 90708535 90536875 90391155
+1504888154270 3846811 bytes. 90 images. 42.3667 (mean) 39 (median) 60 (95th) 177 (global-99.9) 123216 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 91982698 91819451 91681227
+1504888155271 4486617 bytes. 90 images. 43.6556 (mean) 40 (median) 60 (95th) 177 (global-99.9) 172725 (src_dev;global) 63 (max) 3 nodes
+BYNODE: 93544478 93302599 93122916
+1504888156272 5829617 bytes. 90 images. 45.8556 (mean) 46 (median) 60 (95th) 177 (global-99.9) 176049 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 95492678 95243660 95063272
+1504888157272 5305487 bytes. 90 images. 44.3 (mean) 42 (median) 60 (95th) 177 (global-99.9) 186537 (src_dev;global) 63 (max) 3 nodes
+BYNODE: 97271009 97019172 96814916
+1504888158273 4500865 bytes. 90 images. 42.6333 (mean) 40 (median) 60 (95th) 177 (global-99.9) 138712 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 98717010 98508534 98380418
+1504888159274 4621228 bytes. 89 images. 44.764 (mean) 42 (median) 60 (95th) 177 (global-99.9) 166471 (src_dev;global) 87 (max) 3 nodes
+BYNODE: 100280983 100072964 99873243
+1504888160274 4666460 bytes. 91 images. 44.1429 (mean) 42 (median) 60 (95th) 177 (global-99.9) 143355 (src_dev;global) 63 (max) 3 nodes
+BYNODE: 101814619 101614339 101464692
+1504888161275 5023052 bytes. 90 images. 43.7444 (mean) 41 (median) 60 (95th) 177 (global-99.9) 155460 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 103502912 103290819 103122971
+1504888162275 4968637 bytes. 89 images. 44.3708 (mean) 42 (median) 60 (95th) 177 (global-99.9) 185383 (src_dev;global) 64 (max) 3 nodes
+BYNODE: 105186001 104967328 104732010
+1504888163276 6313226 bytes. 91 images. 46.7253 (mean) 46 (median) 60 (95th) 177 (global-99.9) 185647 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 107306722 107037053 106854790
+1504888164277 5188151 bytes. 89 images. 44.4607 (mean) 42 (median) 60 (95th) 177 (global-99.9) 168887 (src_dev;global) 63 (max) 3 nodes
+BYNODE: 109006978 108786123 108593615
+1504888165277 5627117 bytes. 90 images. 45.0667 (mean) 41 (median) 60 (95th) 173 (global-99.9) 200827 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 110918392 110668956 110426485
+1504888166278 5237584 bytes. 90 images. 44.8222 (mean) 42 (median) 60 (95th) 173 (global-99.9) 190806 (src_dev;global) 62 (max) 3 nodes
+BYNODE: 112643413 112431323 112176681
+1504888167279 5082307 bytes. 91 images. 44.3187 (mean) 42 (median) 60 (95th) 173 (global-99.9) 150444 (src_dev;global) 63 (max) 3 nodes
+BYNODE: 114302268 114096855 113934601
+1504888168279 4605765 bytes. 90 images. 42.7 (mean) 39 (median) 60 (95th) 173 (global-99.9) 169500 (src_dev;global) 62 (max) 3 nodes
+BYNODE: 115860450 115633131 115445908
+1504888169280 4035987 bytes. 90 images. 43.6556 (mean) 41 (median) 60 (95th) 173 (global-99.9) 137392 (src_dev;global) 70 (max) 3 nodes
+BYNODE: 117171784 116965296 116838396
+1504888170281 4552493 bytes. 90 images. 43.4556 (mean) 40 (median) 60 (95th) 173 (global-99.9) 138739 (src_dev;global) 64 (max) 3 nodes
+BYNODE: 118685574 118495861 118346534
+1504888171281 4210694 bytes. 90 images. 42.9667 (mean) 41 (median) 60 (95th) 173 (global-99.9) 187599 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 120153225 119890026 119695412
+1504888172282 4339133 bytes. 91 images. 42.967 (mean) 41 (median) 60 (95th) 173 (global-99.9) 165443 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 121555555 121371393 121150848
+1504888173283 4065349 bytes. 90 images. 43.1778 (mean) 40 (median) 60 (95th) 173 (global-99.9) 158750 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 122897859 122734689 122510597
+1504888174283 4150336 bytes. 90 images. 43.4556 (mean) 41 (median) 60 (95th) 173 (global-99.9) 194571 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 124324173 124120162 123849146
+1504888175284 4969668 bytes. 90 images. 44.3333 (mean) 42 (median) 60 (95th) 173 (global-99.9) 230295 (src_dev;global) 66 (max) 3 nodes
+BYNODE: 126023175 125779257 125460717
+1504888176285 5964339 bytes. 89 images. 46.0899 (mean) 44 (median) 60 (95th) 156 (global-99.9) 247747 (src_dev;global) 62 (max) 3 nodes
+BYNODE: 128050919 127732245 127444324
+1504888177285 4805990 bytes. 91 images. 44.0989 (mean) 42 (median) 60 (95th) 156 (global-99.9) 216576 (src_dev;global) 62 (max) 3 nodes
+BYNODE: 129603189 129357148 129073141
+1504888178286 5001494 bytes. 90 images. 43.6222 (mean) 42 (median) 60 (95th) 156 (global-99.9) 200521 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 131248972 131027441 130758559
+1504888179286 4883392 bytes. 89 images. 45.4045 (mean) 44 (median) 60 (95th) 156 (global-99.9) 200516 (src_dev;global) 87 (max) 3 nodes
+BYNODE: 132899437 132607530 132411397
+1504888180287 4463967 bytes. 91 images. 44.3297 (mean) 42 (median) 60 (95th) 156 (global-99.9) 168571 (src_dev;global) 63 (max) 3 nodes
+BYNODE: 134331803 134131576 133918952
+1504888181288 4038394 bytes. 90 images. 42.7667 (mean) 39 (median) 60 (95th) 156 (global-99.9) 162176 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 135667681 135482323 135270721
+1504888182288 4271112 bytes. 89 images. 43.5169 (mean) 40 (median) 60 (95th) 156 (global-99.9) 210046 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 137166987 136870232 136654618
+1504888183289 5428571 bytes. 90 images. 44.4333 (mean) 42 (median) 60 (95th) 156 (global-99.9) 233102 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 139003884 138682002 138434522
+1504888184290 5825699 bytes. 90 images. 45.6111 (mean) 44 (median) 60 (95th) 156 (global-99.9) 249998 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 140962316 140633259 140350532
+1504888185290 6176677 bytes. 90 images. 46.8222 (mean) 46 (median) 60 (95th) 156 (global-99.9) 264298 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 143043013 142682719 142397052
+1504888186291 4971921 bytes. 91 images. 44.022 (mean) 44 (median) 60 (95th) 156 (global-99.9) 167586 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 144585025 144330911 144178769
+1504888187292 5070723 bytes. 90 images. 43.5667 (mean) 42 (median) 60 (95th) 156 (global-99.9) 205362 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 146317366 146032149 145815913
+1504888188292 4456407 bytes. 90 images. 42.5444 (mean) 41 (median) 60 (95th) 146 (global-99.9) 191708 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 147790379 147507051 147324405
+1504888189293 3737073 bytes. 90 images. 43.7889 (mean) 44 (median) 60 (95th) 146 (global-99.9) 145946 (src_dev;global) 69 (max) 3 nodes
+BYNODE: 148971857 148771805 148615246
+1504888190294 3402783 bytes. 90 images. 41.8 (mean) 39 (median) 60 (95th) 146 (global-99.9) 163942 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 150132002 149897222 149732467
+1504888191294 4333429 bytes. 91 images. 43.6154 (mean) 40 (median) 60 (95th) 146 (global-99.9) 193547 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 151603488 151362211 151129421
+1504888192295 4659921 bytes. 89 images. 43.3483 (mean) 41 (median) 60 (95th) 146 (global-99.9) 232359 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 153220370 152879464 152655207
+1504888193295 5786900 bytes. 91 images. 45.7253 (mean) 44 (median) 60 (95th) 146 (global-99.9) 235019 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 155158814 154791947 154591180
+1504888194296 4943646 bytes. 90 images. 43.8444 (mean) 41 (median) 60 (95th) 146 (global-99.9) 234141 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 156779066 156500897 156205624
+1504888195297 5091568 bytes. 89 images. 44.1685 (mean) 44 (median) 60 (95th) 146 (global-99.9) 236128 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 158491607 158171165 157914383
+1504888196297 5146690 bytes. 91 images. 44.2198 (mean) 42 (median) 60 (95th) 146 (global-99.9) 232803 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 160193283 159907527 159623035
+1504888197298 5824966 bytes. 91 images. 45.8901 (mean) 44 (median) 60 (95th) 146 (global-99.9) 250571 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 162167258 161826794 161554759
+1504888198299 5882445 bytes. 90 images. 45.2889 (mean) 44 (median) 60 (95th) 146 (global-99.9) 237528 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 164107934 163796728 163526594
+1504888199299 5427002 bytes. 88 images. 46.3409 (mean) 44 (median) 68 (95th) 144 (global-99.9) 257324 (src_dev;global) 83 (max) 3 nodes
+BYNODE: 165955072 165573356 165329830
+1504888200300 5303786 bytes. 91 images. 44.5275 (mean) 44 (median) 60 (95th) 144 (global-99.9) 216434 (src_dev;global) 62 (max) 3 nodes
+BYNODE: 167677287 167327331 167157426
+1504888201301 4673329 bytes. 90 images. 43.3444 (mean) 40 (median) 60 (95th) 144 (global-99.9) 208798 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 169204120 168938450 168692803
+1504888202301 4829241 bytes. 90 images. 43.8 (mean) 41 (median) 60 (95th) 144 (global-99.9) 208199 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 170832777 170500161 170331676
+1504888203302 4812610 bytes. 89 images. 43.4944 (mean) 41 (median) 60 (95th) 144 (global-99.9) 202077 (src_dev;global) 71 (max) 3 nodes
+BYNODE: 172423725 172120147 171933352
+1504888204303 4843268 bytes. 90 images. 43.8111 (mean) 42 (median) 60 (95th) 144 (global-99.9) 235665 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 174075514 173744540 173500438
+1504888205304 5475754 bytes. 91 images. 44.9011 (mean) 44 (median) 60 (95th) 144 (global-99.9) 211042 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 175882012 175538539 175375695
+1504888206304 5205242 bytes. 90 images. 44.4667 (mean) 42 (median) 60 (95th) 144 (global-99.9) 213989 (src_dev;global) 68 (max) 3 nodes
+BYNODE: 177619289 177278113 177104086
+1504888207305 5319181 bytes. 89 images. 44.4157 (mean) 42 (median) 60 (95th) 144 (global-99.9) 236683 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 179415414 179065046 178840209
+1504888208306 4943109 bytes. 90 images. 43.6556 (mean) 42 (median) 60 (95th) 144 (global-99.9) 229142 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 181051065 180719658 180493055
+1504888209306 5531086 bytes. 90 images. 46.1778 (mean) 44 (median) 60 (95th) 144 (global-99.9) 272843 (src_dev;global) 83 (max) 3 nodes
+BYNODE: 182954586 182548410 182291868
+1504888210307 5699527 bytes. 90 images. 44.8889 (mean) 42 (median) 60 (95th) 124 (global-99.9) 212738 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 184770676 184472199 184251516
+1504888211308 5492502 bytes. 90 images. 44.9889 (mean) 42 (median) 60 (95th) 124 (global-99.9) 254306 (src_dev;global) 63 (max) 3 nodes
+BYNODE: 186653724 186300397 186032772
+1504888212308 4830376 bytes. 90 images. 43.3333 (mean) 42 (median) 60 (95th) 124 (global-99.9) 215490 (src_dev;global) 62 (max) 3 nodes
+BYNODE: 188218295 187905258 187693716
+1504888213309 4329882 bytes. 90 images. 43.1556 (mean) 40 (median) 60 (95th) 124 (global-99.9) 184963 (src_dev;global) 66 (max) 3 nodes
+BYNODE: 189618920 189360835 189167396
+1504888214309 3804141 bytes. 89 images. 43.0337 (mean) 39 (median) 60 (95th) 124 (global-99.9) 179230 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 190891545 190597571 190462176
+1504888215310 4556618 bytes. 91 images. 44.1099 (mean) 44 (median) 60 (95th) 124 (global-99.9) 235803 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 192495689 192065345 191946876
+1504888216311 5774018 bytes. 89 images. 45.7865 (mean) 44 (median) 60 (95th) 124 (global-99.9) 252244 (src_dev;global) 66 (max) 3 nodes
+BYNODE: 194435486 194012490 193833952
+1504888217312 5272702 bytes. 90 images. 44.9 (mean) 42 (median) 60 (95th) 124 (global-99.9) 265637 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 196208472 195774547 195571611
+1504888218312 4541035 bytes. 90 images. 43.2667 (mean) 41 (median) 60 (95th) 124 (global-99.9) 206966 (src_dev;global) 62 (max) 3 nodes
+BYNODE: 197647920 197289552 197158193
+1504888219313 4651896 bytes. 90 images. 45.2333 (mean) 44 (median) 60 (95th) 124 (global-99.9) 216258 (src_dev;global) 87 (max) 3 nodes
+BYNODE: 199210369 198839989 198697203
+1504888220314 4625640 bytes. 90 images. 43.6778 (mean) 44 (median) 60 (95th) 124 (global-99.9) 213697 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 200747848 200385991 200239362
+1504888221314 5004225 bytes. 90 images. 43.9333 (mean) 42 (median) 60 (95th) 114 (global-99.9) 229749 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 202435651 202055596 201886179
+1504888222315 5055722 bytes. 90 images. 44.5778 (mean) 42 (median) 60 (95th) 114 (global-99.9) 246774 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 204144859 203732319 203555970
+1504888223315 6230395 bytes. 90 images. 46.9889 (mean) 48 (median) 60 (95th) 114 (global-99.9) 284208 (src_dev;global) 63 (max) 3 nodes
+BYNODE: 206271359 205800259 205591925
+1504888224316 5264986 bytes. 90 images. 44.0667 (mean) 42 (median) 60 (95th) 114 (global-99.9) 227816 (src_dev;global) 63 (max) 3 nodes
+BYNODE: 207954954 207556000 207417575
+1504888225317 5614192 bytes. 90 images. 45.5444 (mean) 42 (median) 60 (95th) 114 (global-99.9) 258362 (src_dev;global) 64 (max) 3 nodes
+BYNODE: 209865079 209427197 209250445
+1504888226317 5224072 bytes. 90 images. 44.2556 (mean) 42 (median) 60 (95th) 114 (global-99.9) 239080 (src_dev;global) 62 (max) 3 nodes
+BYNODE: 211575396 211190756 211000641
+1504888227318 5042791 bytes. 90 images. 43.8111 (mean) 42 (median) 60 (95th) 114 (global-99.9) 217769 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 213228434 212875595 212705555
+1504888228318 4592767 bytes. 90 images. 43.1111 (mean) 40 (median) 60 (95th) 114 (global-99.9) 190835 (src_dev;global) 63 (max) 3 nodes
+BYNODE: 214725451 214407032 214269868
+1504888229319 4064779 bytes. 90 images. 43.9556 (mean) 42 (median) 60 (95th) 114 (global-99.9) 203496 (src_dev;global) 70 (max) 3 nodes
+BYNODE: 216101016 215745396 215620718
+1504888230320 4501148 bytes. 90 images. 43.4889 (mean) 42 (median) 60 (95th) 114 (global-99.9) 198196 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 217588223 217267932 217112123
+1504888231321 4241338 bytes. 90 images. 42.7444 (mean) 40 (median) 60 (95th) 114 (global-99.9) 209466 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 219019601 218670643 218519372
+1504888232321 4291802 bytes. 90 images. 42.9556 (mean) 42 (median) 60 (95th) 110 (global-99.9) 189584 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 220425075 220101535 219974808
+1504888233322 4062618 bytes. 90 images. 42.8889 (mean) 40 (median) 60 (95th) 110 (global-99.9) 178278 (src_dev;global) 64 (max) 3 nodes
+BYNODE: 221761393 221468086 221334557
+1504888234323 4067517 bytes. 89 images. 43.0562 (mean) 40 (median) 60 (95th) 110 (global-99.9) 227463 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 223194568 222763879 222673106
+1504888235323 4996541 bytes. 90 images. 44.1667 (mean) 41 (median) 60 (95th) 110 (global-99.9) 277656 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 224928045 224415372 224284677
+1504888236324 5974367 bytes. 90 images. 46.1 (mean) 44 (median) 60 (95th) 110 (global-99.9) 289178 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 226936200 226397977 226268284
+1504888237324 4780182 bytes. 90 images. 44.0111 (mean) 42 (median) 60 (95th) 110 (global-99.9) 254606 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 228482369 228003173 227897101
+1504888238325 5018846 bytes. 90 images. 43.4667 (mean) 41 (median) 60 (95th) 110 (global-99.9) 235382 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 230127364 229691606 229582519
+1504888239326 4939820 bytes. 90 images. 45.5667 (mean) 42 (median) 60 (95th) 110 (global-99.9) 231721 (src_dev;global) 87 (max) 3 nodes
+BYNODE: 231769574 231336378 231235357
+1504888240326 4523127 bytes. 92 images. 43.4022 (mean) 42 (median) 60 (95th) 110 (global-99.9) 218158 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 233254960 232866564 232742912
+1504888241327 4014111 bytes. 89 images. 43.4944 (mean) 40 (median) 60 (95th) 110 (global-99.9) 223490 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 234605167 234178699 234094681
+1504888242328 4329320 bytes. 91 images. 43.3407 (mean) 40 (median) 60 (95th) 110 (global-99.9) 258613 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 236089674 235639615 235478578
+1504888243328 5385372 bytes. 89 images. 45 (mean) 42 (median) 60 (95th) 92 (global-99.9) 306501 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 237959239 237375518 237258482
+1504888244329 5822685 bytes. 90 images. 45.4778 (mean) 44 (median) 60 (95th) 92 (global-99.9) 316066 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 239909636 239331796 239174492
+1504888245330 6153913 bytes. 90 images. 45.9222 (mean) 44 (median) 60 (95th) 92 (global-99.9) 336428 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 241992614 241356211 241221012
+1504888246331 4963145 bytes. 90 images. 43.8444 (mean) 42 (median) 60 (95th) 92 (global-99.9) 246634 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 243522015 243053520 242957447
+1504888247331 5040720 bytes. 90 images. 44.3111 (mean) 44 (median) 60 (95th) 92 (global-99.9) 238247 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 245189379 244744450 244639873
+1504888248332 4429704 bytes. 89 images. 42.618 (mean) 41 (median) 60 (95th) 92 (global-99.9) 201457 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 246614339 246240702 246148365
+1504888249333 3795218 bytes. 91 images. 43.0549 (mean) 39 (median) 60 (95th) 92 (global-99.9) 174183 (src_dev;global) 68 (max) 3 nodes
+BYNODE: 247841663 247517755 247439206
+1504888250333 3435944 bytes. 91 images. 42.967 (mean) 40 (median) 60 (95th) 92 (global-99.9) 185771 (src_dev;global) 68 (max) 3 nodes
+BYNODE: 248997618 248680523 248556427
+1504888251334 4279471 bytes. 90 images. 43.3667 (mean) 40 (median) 60 (95th) 92 (global-99.9) 218734 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 250470421 250090237 249953381
+1504888252335 4724093 bytes. 90 images. 43.1333 (mean) 41 (median) 60 (95th) 92 (global-99.9) 271996 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 252119389 251639576 251479167
+1504888253335 5690912 bytes. 90 images. 45.4222 (mean) 44 (median) 60 (95th) 92 (global-99.9) 291966 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 254038152 253549204 253341688
+1504888254336 4960695 bytes. 90 images. 43.4333 (mean) 42 (median) 60 (95th) 88 (global-99.9) 261863 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 255652324 255207831 255029584
+1504888255337 5084252 bytes. 89 images. 44.2584 (mean) 44 (median) 60 (95th) 88 (global-99.9) 269809 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 257365197 256870451 256738343
+1504888256337 5153623 bytes. 91 images. 44.5714 (mean) 42 (median) 60 (95th) 88 (global-99.9) 266382 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 259074560 258606059 258446995
+1504888257338 5766602 bytes. 90 images. 45.3667 (mean) 42 (median) 60 (95th) 88 (global-99.9) 316787 (src_dev;global) 63 (max) 3 nodes
+BYNODE: 261062755 260520536 260310925
+1504888258339 5802524 bytes. 89 images. 45.3371 (mean) 44 (median) 60 (95th) 88 (global-99.9) 269768 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 262931894 262474743 262290103
+1504888259339 5571090 bytes. 90 images. 46.0667 (mean) 44 (median) 68 (95th) 88 (global-99.9) 301486 (src_dev;global) 83 (max) 3 nodes
+BYNODE: 264843625 264270415 264153790
+1504888260340 5322920 bytes. 91 images. 44.044 (mean) 42 (median) 60 (95th) 88 (global-99.9) 301221 (src_dev;global) 62 (max) 3 nodes
+BYNODE: 266618096 266041621 265931033
+1504888261341 4734074 bytes. 91 images. 43.4615 (mean) 42 (median) 60 (95th) 88 (global-99.9) 267694 (src_dev;global) 64 (max) 3 nodes
+BYNODE: 268143818 267664243 267516763
+1504888262341 4820952 bytes. 90 images. 43.8111 (mean) 42 (median) 60 (95th) 88 (global-99.9) 292024 (src_dev;global) 66 (max) 3 nodes
+BYNODE: 269783001 269266654 269096121
+1504888263342 4891524 bytes. 90 images. 43.9111 (mean) 42 (median) 60 (95th) 88 (global-99.9) 267164 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 271381343 270898645 270757312
+1504888264342 4771070 bytes. 89 images. 44.3034 (mean) 42 (median) 60 (95th) 88 (global-99.9) 309558 (src_dev;global) 70 (max) 3 nodes
+BYNODE: 273034582 272449390 272324398
+1504888265343 5429010 bytes. 90 images. 44.9111 (mean) 44 (median) 60 (95th) 86 (global-99.9) 309012 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 274844197 274255203 274137980
+1504888266344 5250875 bytes. 91 images. 44.1319 (mean) 42 (median) 60 (95th) 86 (global-99.9) 301775 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 276576082 276048121 275864052
+1504888267345 5301394 bytes. 89 images. 44.9438 (mean) 42 (median) 60 (95th) 86 (global-99.9) 303177 (src_dev;global) 65 (max) 3 nodes
+BYNODE: 278354153 277771327 277664169
+1504888268345 5068325 bytes. 90 images. 44.5556 (mean) 42 (median) 60 (95th) 86 (global-99.9) 312259 (src_dev;global) 70 (max) 3 nodes
+BYNODE: 280049254 279491705 279317015
+1504888269346 5511844 bytes. 91 images. 46.1099 (mean) 44 (median) 60 (95th) 86 (global-99.9) 348699 (src_dev;global) 85 (max) 3 nodes
+BYNODE: 281935684 281318306 281115828
+1504888270347 5674862 bytes. 90 images. 45.0889 (mean) 44 (median) 60 (95th) 86 (global-99.9) 279678 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 283732664 283236540 283075476
+1504888271347 5478582 bytes. 90 images. 45.2778 (mean) 42 (median) 60 (95th) 86 (global-99.9) 318117 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 285609133 285057397 284856732
+1504888272348 4818806 bytes. 90 images. 43.5889 (mean) 42 (median) 60 (95th) 86 (global-99.9) 271670 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 287154734 286669658 286517676
+1504888273349 4310393 bytes. 90 images. 43.2333 (mean) 40 (median) 60 (95th) 86 (global-99.9) 227311 (src_dev;global) 63 (max) 3 nodes
+BYNODE: 288528427 288132678 287991356
+1504888274349 3871342 bytes. 90 images. 42.8111 (mean) 40 (median) 60 (95th) 86 (global-99.9) 224832 (src_dev;global) 65 (max) 3 nodes
+BYNODE: 289816136 289421531 289286136
+1504888275350 4573909 bytes. 90 images. 44.1667 (mean) 42 (median) 60 (95th) 86 (global-99.9) 327109 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 291485132 290889305 290723275
+1504888276351 5793140 bytes. 90 images. 45.5556 (mean) 44 (median) 60 (95th) 86 (global-99.9) 314646 (src_dev;global) 62 (max) 3 nodes
+BYNODE: 293396490 292836450 292657912
+1504888277352 5259839 bytes. 90 images. 44.2778 (mean) 42 (median) 60 (95th) 86 (global-99.9) 321775 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 295156613 294598507 294395571
+1504888278353 4603892 bytes. 89 images. 43.8876 (mean) 41 (median) 60 (95th) 86 (global-99.9) 293018 (src_dev;global) 73 (max) 3 nodes
+BYNODE: 296658918 296113512 295982153
+1504888279353 4531631 bytes. 90 images. 44.5556 (mean) 42 (median) 60 (95th) 86 (global-99.9) 278805 (src_dev;global) 87 (max) 3 nodes
+BYNODE: 298152841 297612210 297521163
+1504888280354 4678960 bytes. 91 images. 44.0769 (mean) 42 (median) 60 (95th) 86 (global-99.9) 268512 (src_dev;global) 65 (max) 3 nodes
+BYNODE: 299691901 299209951 299063322
+1504888281355 4998750 bytes. 90 images. 44.3333 (mean) 42 (median) 60 (95th) 86 (global-99.9) 281744 (src_dev;global) 63 (max) 3 nodes
+BYNODE: 301374229 300879556 300710139
+1504888282355 5064922 bytes. 89 images. 44.4494 (mean) 42 (median) 60 (95th) 86 (global-99.9) 339585 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 303151732 302497184 302379930
+1504888283356 6187557 bytes. 90 images. 46.5667 (mean) 46 (median) 60 (95th) 86 (global-99.9) 355599 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 305234130 304566388 304415885
+1504888284357 5267557 bytes. 90 images. 44.3889 (mean) 44 (median) 60 (95th) 86 (global-99.9) 293625 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 306906295 306336130 306241535
+1504888285357 5611038 bytes. 90 images. 45.5667 (mean) 44 (median) 60 (95th) 86 (global-99.9) 327804 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 308823106 308197487 308074405
+1504888286358 5137267 bytes. 89 images. 44.0225 (mean) 42 (median) 60 (95th) 86 (global-99.9) 318205 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 310511814 309962006 309758445
+1504888287359 5047936 bytes. 90 images. 43.9444 (mean) 42 (median) 60 (95th) 86 (global-99.9) 300535 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 312173297 311639550 311467354
+1504888288359 4693872 bytes. 91 images. 43.5055 (mean) 42 (median) 60 (95th) 86 (global-99.9) 305960 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 313750489 313178420 313045164
+1504888289360 4050407 bytes. 90 images. 43.0667 (mean) 39 (median) 60 (95th) 86 (global-99.9) 300852 (src_dev;global) 70 (max) 3 nodes
+BYNODE: 315094501 314525594 314404385
+1504888290361 4511139 bytes. 91 images. 43.4286 (mean) 42 (median) 60 (95th) 86 (global-99.9) 278869 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 316555062 316091892 315888665
+1504888291361 4310228 bytes. 91 images. 42.9121 (mean) 40 (median) 60 (95th) 86 (global-99.9) 284417 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 318007912 317494603 317343332
+1504888292362 4215925 bytes. 89 images. 42.5618 (mean) 39 (median) 60 (95th) 86 (global-99.9) 267112 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 319384747 318925495 318751530
+1504888293362 4063966 bytes. 90 images. 42.2667 (mean) 39 (median) 60 (95th) 86 (global-99.9) 254837 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 320720525 320292046 320113167
+1504888294363 4167695 bytes. 90 images. 43.7222 (mean) 42 (median) 60 (95th) 86 (global-99.9) 315640 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 322195173 321650713 321447547
+1504888295364 5017345 bytes. 90 images. 44.2444 (mean) 41 (median) 60 (95th) 86 (global-99.9) 375664 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 323962809 323239332 323108637
+1504888296364 5929069 bytes. 90 images. 46.1222 (mean) 44 (median) 60 (95th) 86 (global-99.9) 366158 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 325925666 325221937 325092244
+1504888297365 4804711 bytes. 90 images. 43.4778 (mean) 42 (median) 60 (95th) 86 (global-99.9) 343255 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 327483397 326890516 326670645
+1504888298366 5026009 bytes. 89 images. 44.573 (mean) 42 (median) 60 (95th) 86 (global-99.9) 379235 (src_dev;global) 73 (max) 3 nodes
+BYNODE: 329216657 328515566 328338344
+1504888299366 4883431 bytes. 90 images. 44.6778 (mean) 41 (median) 60 (95th) 86 (global-99.9) 336865 (src_dev;global) 88 (max) 3 nodes
+BYNODE: 330786155 330160338 330007505
+1504888300367 4404347 bytes. 90 images. 43.4778 (mean) 42 (median) 60 (95th) 86 (global-99.9) 285072 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 332183147 331648205 331526993
+1504888301368 4084077 bytes. 91 images. 43.4615 (mean) 42 (median) 60 (95th) 86 (global-99.9) 266426 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 333521122 333002659 332918641
+1504888302368 4273550 bytes. 89 images. 43.6404 (mean) 41 (median) 60 (95th) 86 (global-99.9) 349701 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 335057971 334408392 334249609
+1504888303369 3568017 bytes. 61 images. 142.787 (mean) 62 (median) 359 (95th) 241 (global-99.9) 356006 (src_dev;global) 400 (max) 3 nodes
+BYNODE: 336257433 335587582 335438974
+1504888304370 2656146 bytes. 59 images. 541.644 (mean) 535 (median) 687 (95th) 595 (global-99.9) 354789 (src_dev;global) 716 (max) 3 nodes
+BYNODE: 337140165 336478665 336321305
+1504888305371 2681980 bytes. 62 images. 891.532 (mean) 911 (median) 1039 (95th) 951 (global-99.9) 334365 (src_dev;global) 1067 (max) 3 nodes
+BYNODE: 338004948 337386421 337230746
+1504888306371 2611274 bytes. 80 images. 1091.64 (mean) 1071 (median) 1327 (95th) 1143 (global-99.9) 362825 (src_dev;global) 1359 (max) 3 nodes
+BYNODE: 338914169 338247226 338071994
+1504888307372 2813767 bytes. 86 images. 1186.66 (mean) 1167 (median) 1375 (95th) 1319 (global-99.9) 343669 (src_dev;global) 1373 (max) 3 nodes
+BYNODE: 339828307 339179412 339039437
+1504888308372 2647687 bytes. 69 images. 1296.17 (mean) 1295 (median) 1439 (95th) 1367 (global-99.9) 354494 (src_dev;global) 1465 (max) 3 nodes
+BYNODE: 340725986 340056517 339912340
+1504888309373 2663077 bytes. 94 images. 1404.04 (mean) 1375 (median) 1823 (95th) 1551 (global-99.9) 355114 (src_dev;global) 1858 (max) 3 nodes
+BYNODE: 341615791 340936535 340805594
+1504888310374 2788778 bytes. 115 images. 1300.89 (mean) 1199 (median) 1759 (95th) 1711 (global-99.9) 347955 (src_dev;global) 1801 (max) 3 nodes
+BYNODE: 342534785 341873373 341738540
+1504888311375 2642328 bytes. 92 images. 1077.5 (mean) 1103 (median) 1231 (95th) 1711 (global-99.9) 349648 (src_dev;global) 1312 (max) 3 nodes
+BYNODE: 343417720 342754501 342616805
+1504888312375 2641664 bytes. 65 images. 1219.78 (mean) 1231 (median) 1375 (95th) 1711 (global-99.9) 364461 (src_dev;global) 1452 (max) 3 nodes
+BYNODE: 344316361 343641552 343472777
+1504888313376 2708984 bytes. 94 images. 1359.85 (mean) 1439 (median) 1567 (95th) 1711 (global-99.9) 353111 (src_dev;global) 1613 (max) 3 nodes
+BYNODE: 345208233 344522784 344408657
+1504888314377 2706349 bytes. 81 images. 1380.96 (mean) 1439 (median) 1503 (95th) 1711 (global-99.9) 359279 (src_dev;global) 1544 (max) 3 nodes
+BYNODE: 346116484 345437319 345292220
+1504888315377 2657705 bytes. 78 images. 1533.59 (mean) 1503 (median) 1695 (95th) 1711 (global-99.9) 331587 (src_dev;global) 1716 (max) 3 nodes
+BYNODE: 346961260 346350058 346192410
+1504888316378 2763447 bytes. 100 images. 1503.08 (mean) 1503 (median) 1631 (95th) 1711 (global-99.9) 355656 (src_dev;global) 1696 (max) 3 nodes
+BYNODE: 347915731 347260570 347090874
+1504888317379 2639634 bytes. 80 images. 1525.41 (mean) 1503 (median) 1631 (95th) 1711 (global-99.9) 352479 (src_dev;global) 1642 (max) 3 nodes
+BYNODE: 348798233 348097622 348010954
+1504888318379 2681856 bytes. 96 images. 1512.18 (mean) 1503 (median) 1631 (95th) 1711 (global-99.9) 361105 (src_dev;global) 1638 (max) 3 nodes
+BYNODE: 349697518 349029961 348861186
+1504888319380 2575763 bytes. 77 images. 1527.21 (mean) 1503 (median) 1759 (95th) 1743 (global-99.9) 338169 (src_dev;global) 1800 (max) 3 nodes
+BYNODE: 350528841 349872637 349762950
+1504888320381 2759426 bytes. 77 images. 1717.91 (mean) 1759 (median) 1823 (95th) 1807 (global-99.9) 350504 (src_dev;global) 1883 (max) 3 nodes
+BYNODE: 351458110 350827510 350638234
+1504888321381 2694460 bytes. 85 images. 1834.91 (mean) 1823 (median) 2015 (95th) 1903 (global-99.9) 333201 (src_dev;global) 2039 (max) 3 nodes
+BYNODE: 352337293 351709062 351571959
+1504888322382 2679060 bytes. 84 images. 1837.32 (mean) 1823 (median) 1951 (95th) 1935 (global-99.9) 373540 (src_dev;global) 1979 (max) 3 nodes
+BYNODE: 353282293 352603548 352411533
+1504888323383 2700402 bytes. 99 images. 1869.8 (mean) 1887 (median) 2015 (95th) 1967 (global-99.9) 350416 (src_dev;global) 2041 (max) 3 nodes
+BYNODE: 354157221 353476482 353364073
+1504888324383 2693842 bytes. 87 images. 1792.97 (mean) 1759 (median) 1951 (95th) 1967 (global-99.9) 327464 (src_dev;global) 1970 (max) 3 nodes
+BYNODE: 355018130 354414762 354258726
+1504888325384 2718335 bytes. 97 images. 1844.05 (mean) 1823 (median) 1951 (95th) 1967 (global-99.9) 349830 (src_dev;global) 1956 (max) 3 nodes
+BYNODE: 355959393 355287976 355162584
+1504888326385 2718474 bytes. 81 images. 1790.25 (mean) 1759 (median) 1951 (95th) 1967 (global-99.9) 352594 (src_dev;global) 1986 (max) 3 nodes
+BYNODE: 356865834 356212757 356049836
+1504888327385 2662574 bytes. 87 images. 1920.34 (mean) 2015 (median) 2079 (95th) 2063 (global-99.9) 348627 (src_dev;global) 2141 (max) 3 nodes
+BYNODE: 357748251 357100082 356942668
+1504888328386 2685874 bytes. 93 images. 1951.55 (mean) 1951 (median) 2079 (95th) 2063 (global-99.9) 325923 (src_dev;global) 2105 (max) 3 nodes
+BYNODE: 358614133 357994226 357868516
+1504888329386 2676165 bytes. 96 images. 1853.49 (mean) 1887 (median) 1951 (95th) 2063 (global-99.9) 359389 (src_dev;global) 2001 (max) 3 nodes
+BYNODE: 359545533 358905383 358702124
+1504888330387 2696403 bytes. 80 images. 1853.04 (mean) 1887 (median) 1951 (95th) 2063 (global-99.9) 328692 (src_dev;global) 1982 (max) 3 nodes
+BYNODE: 360407718 359790147 359651578
+1504888331388 2659744 bytes. 88 images. 1949.22 (mean) 1887 (median) 2143 (95th) 2127 (global-99.9) 363424 (src_dev;global) 2196 (max) 3 nodes
+BYNODE: 361346843 360633117 360529227
+1504888332388 2658110 bytes. 87 images. 1983.16 (mean) 1951 (median) 2143 (95th) 2127 (global-99.9) 355916 (src_dev;global) 2170 (max) 3 nodes
+BYNODE: 362221185 361531780 361414332
+1504888333389 2692991 bytes. 91 images. 1946.21 (mean) 1951 (median) 2079 (95th) 2127 (global-99.9) 348800 (src_dev;global) 2146 (max) 3 nodes
+BYNODE: 363110261 362422933 362327094
+1504888334390 2726714 bytes. 100 images. 1918 (mean) 1951 (median) 2079 (95th) 2127 (global-99.9) 369754 (src_dev;global) 2135 (max) 3 nodes
+BYNODE: 364045321 363342516 363199165
+1504888335390 2714462 bytes. 108 images. 1773.1 (mean) 1823 (median) 1951 (95th) 2127 (global-99.9) 356785 (src_dev;global) 1979 (max) 3 nodes
+BYNODE: 364933035 364247715 364120714
+1504888336391 2705257 bytes. 100 images. 1596.02 (mean) 1567 (median) 1823 (95th) 2127 (global-99.9) 353666 (src_dev;global) 1861 (max) 3 nodes
+BYNODE: 365827180 365169533 365010008
+1504888337392 2631752 bytes. 93 images. 1518.94 (mean) 1503 (median) 1631 (95th) 2127 (global-99.9) 340630 (src_dev;global) 1666 (max) 3 nodes
+BYNODE: 366681678 366074185 365882610
+1504888338393 2662547 bytes. 80 images. 1597.38 (mean) 1567 (median) 1759 (95th) 2127 (global-99.9) 360325 (src_dev;global) 1785 (max) 3 nodes
+BYNODE: 367602752 366922875 366775393
+1504888339393 2734993 bytes. 94 images. 1629.15 (mean) 1631 (median) 1759 (95th) 2127 (global-99.9) 362589 (src_dev;global) 1785 (max) 3 nodes
+BYNODE: 368514275 367850307 367671431
+1504888340394 2734457 bytes. 96 images. 1518.43 (mean) 1503 (median) 1695 (95th) 2127 (global-99.9) 353885 (src_dev;global) 1722 (max) 3 nodes
+BYNODE: 369413867 368764905 368591698
+1504888341395 2624655 bytes. 80 images. 1606.55 (mean) 1631 (median) 1823 (95th) 2127 (global-99.9) 367123 (src_dev;global) 1847 (max) 3 nodes
+BYNODE: 370306468 369636794 369451863
+1504888342396 2760930 bytes. 104 images. 1575.17 (mean) 1567 (median) 1759 (95th) 2127 (global-99.9) 349772 (src_dev;global) 1795 (max) 3 nodes
+BYNODE: 371208360 370534466 370413229
+1504888343396 2699968 bytes. 93 images. 1483.32 (mean) 1503 (median) 1567 (95th) 2127 (global-99.9) 342268 (src_dev;global) 1609 (max) 3 nodes
+BYNODE: 372094453 371457901 371303669
+1504888344397 2674056 bytes. 75 images. 1533.32 (mean) 1567 (median) 1631 (95th) 2127 (global-99.9) 352120 (src_dev;global) 1673 (max) 3 nodes
+BYNODE: 372998867 372347819 372183393
+1504888345398 2540043 bytes. 78 images. 1690.94 (mean) 1695 (median) 1759 (95th) 2127 (global-99.9) 378850 (src_dev;global) 1787 (max) 3 nodes
+BYNODE: 373885395 373167584 373017143
+1504888346398 2865389 bytes. 86 images. 1730.02 (mean) 1695 (median) 1887 (95th) 2127 (global-99.9) 352678 (src_dev;global) 1975 (max) 3 nodes
+BYNODE: 374803883 374136456 373995172
+1504888347399 2631298 bytes. 78 images. 1917.46 (mean) 1951 (median) 2079 (95th) 2127 (global-99.9) 344573 (src_dev;global) 2144 (max) 3 nodes
+BYNODE: 375668504 375024031 374874274
+1504888348400 2660857 bytes. 96 images. 1918.48 (mean) 1951 (median) 2143 (95th) 2127 (global-99.9) 327248 (src_dev;global) 2140 (max) 3 nodes
+BYNODE: 376532156 375914852 375780658
+1504888349400 2693486 bytes. 83 images. 1892.99 (mean) 1887 (median) 2015 (95th) 2127 (global-99.9) 369582 (src_dev;global) 2059 (max) 3 nodes
+BYNODE: 377486714 376803892 376630546
+1504888350402 2667527 bytes. 97 images. 1931.38 (mean) 1951 (median) 2015 (95th) 2127 (global-99.9) 360382 (src_dev;global) 2045 (max) 3 nodes
+BYNODE: 378365623 377684054 377539002
+1504888351402 2751449 bytes. 109 images. 1747.34 (mean) 1759 (median) 1887 (95th) 2127 (global-99.9) 326724 (src_dev;global) 1921 (max) 3 nodes
+BYNODE: 379232044 378637071 378471013
+1504888352403 2655730 bytes. 95 images. 1638.56 (mean) 1631 (median) 1759 (95th) 2127 (global-99.9) 357747 (src_dev;global) 1771 (max) 3 nodes
+BYNODE: 380159800 379510583 379325475
+1504888353404 2700062 bytes. 109 images. 1502.68 (mean) 1503 (median) 1759 (95th) 2127 (global-99.9) 365611 (src_dev;global) 1811 (max) 3 nodes
+BYNODE: 381068740 380415686 380211494
+1504888354404 2731135 bytes. 98 images. 1345.68 (mean) 1327 (median) 1503 (95th) 2127 (global-99.9) 349686 (src_dev;global) 1528 (max) 3 nodes
+BYNODE: 381963409 381302635 381161011
+1504888355405 2692687 bytes. 79 images. 1352.67 (mean) 1375 (median) 1503 (95th) 2127 (global-99.9) 347791 (src_dev;global) 1550 (max) 3 nodes
+BYNODE: 382858775 382198561 382062406
+1504888356406 2626849 bytes. 64 images. 1603.53 (mean) 1631 (median) 1759 (95th) 2127 (global-99.9) 338918 (src_dev;global) 1859 (max) 3 nodes
+BYNODE: 383720687 383085992 382939912
+1504888357406 2744692 bytes. 95 images. 1737.13 (mean) 1759 (median) 1951 (95th) 2127 (global-99.9) 343961 (src_dev;global) 1965 (max) 3 nodes
+BYNODE: 384643271 383994829 383853183
+1504888358407 2696240 bytes. 91 images. 1728.13 (mean) 1759 (median) 1887 (95th) 2127 (global-99.9) 354779 (src_dev;global) 1867 (max) 3 nodes
+BYNODE: 385557533 384885807 384744183
+1504888359408 2655639 bytes. 84 images. 1686.49 (mean) 1695 (median) 1823 (95th) 2127 (global-99.9) 360810 (src_dev;global) 1862 (max) 3 nodes
+BYNODE: 386451139 385768144 385623879
+1504888360408 2670403 bytes. 88 images. 1749.09 (mean) 1695 (median) 1951 (95th) 2127 (global-99.9) 335815 (src_dev;global) 1987 (max) 3 nodes
+BYNODE: 387303700 386684928 386524937
+1504888361409 2707601 bytes. 88 images. 1766.85 (mean) 1823 (median) 1951 (95th) 2127 (global-99.9) 352606 (src_dev;global) 2018 (max) 3 nodes
+BYNODE: 388226647 387592972 387401547
+1504888362410 2731287 bytes. 113 images. 1687.07 (mean) 1695 (median) 1951 (95th) 2127 (global-99.9) 352807 (src_dev;global) 1979 (max) 3 nodes
+BYNODE: 389144229 388468284 388339940
+1504888363410 2668639 bytes. 109 images. 1395.25 (mean) 1375 (median) 1631 (95th) 2127 (global-99.9) 360075 (src_dev;global) 1715 (max) 3 nodes
+BYNODE: 390041495 389368105 389211492
+1504888364411 2688245 bytes. 67 images. 1434.43 (mean) 1439 (median) 1567 (95th) 2127 (global-99.9) 359372 (src_dev;global) 1619 (max) 3 nodes
+BYNODE: 390933853 390278087 390097397
+1504888365412 2647920 bytes. 91 images. 1591.22 (mean) 1567 (median) 1695 (95th) 2127 (global-99.9) 348032 (src_dev;global) 1697 (max) 3 nodes
+BYNODE: 391809229 391112863 391035165
+1504888366412 2697750 bytes. 87 images. 1559.97 (mean) 1567 (median) 1631 (95th) 2127 (global-99.9) 339982 (src_dev;global) 1660 (max) 3 nodes
+BYNODE: 392687982 392072711 391894314
+1504888367413 2691328 bytes. 69 images. 1716.97 (mean) 1695 (median) 1887 (95th) 2127 (global-99.9) 363496 (src_dev;global) 1917 (max) 3 nodes
+BYNODE: 393624148 392925202 392796985
+1504888368414 2656816 bytes. 105 images. 1763.25 (mean) 1759 (median) 1951 (95th) 2127 (global-99.9) 350958 (src_dev;global) 1979 (max) 3 nodes
+BYNODE: 394487635 393842515 393673001
+1504888369414 2760503 bytes. 102 images. 1609.59 (mean) 1631 (median) 1759 (95th) 2127 (global-99.9) 346429 (src_dev;global) 1806 (max) 3 nodes
+BYNODE: 395403378 394755378 394604898
+1504888370415 2643751 bytes. 107 images. 1450.2 (mean) 1503 (median) 1695 (95th) 2127 (global-99.9) 368676 (src_dev;global) 1720 (max) 3 nodes
+BYNODE: 396314684 395630680 395462041
+1504888371416 2718339 bytes. 109 images. 1220.18 (mean) 1231 (median) 1503 (95th) 2127 (global-99.9) 356919 (src_dev;global) 1589 (max) 3 nodes
+BYNODE: 397205583 396536424 396383737
+1504888372416 2683868 bytes. 67 images. 1216.78 (mean) 1199 (median) 1503 (95th) 2127 (global-99.9) 333990 (src_dev;global) 1565 (max) 3 nodes
+BYNODE: 398069274 397436563 397303775
+1504888373417 2619120 bytes. 76 images. 1536.25 (mean) 1567 (median) 1695 (95th) 2127 (global-99.9) 338984 (src_dev;global) 1743 (max) 3 nodes
+BYNODE: 398945646 398325873 398157213
+1504888374418 2746908 bytes. 82 images. 1558.54 (mean) 1567 (median) 1823 (95th) 2127 (global-99.9) 359146 (src_dev;global) 1976 (max) 3 nodes
+BYNODE: 399893436 399210456 399071748
+1504888375418 2716433 bytes. 84 images. 1717.93 (mean) 1631 (median) 2015 (95th) 2127 (global-99.9) 336879 (src_dev;global) 2013 (max) 3 nodes
+BYNODE: 400765812 400138255 399988006
+1504888376419 2640905 bytes. 99 images. 1675.6 (mean) 1631 (median) 1951 (95th) 2127 (global-99.9) 364215 (src_dev;global) 1976 (max) 3 nodes
+BYNODE: 401683358 401009549 400840071
+1504888377420 2715478 bytes. 92 images. 1603.96 (mean) 1567 (median) 1887 (95th) 2127 (global-99.9) 329056 (src_dev;global) 1936 (max) 3 nodes
+BYNODE: 402539694 401930968 401777794
+1504888378421 2618220 bytes. 79 images. 1662.73 (mean) 1567 (median) 2015 (95th) 2127 (global-99.9) 314402 (src_dev;global) 2049 (max) 3 nodes
+BYNODE: 403393840 402801265 402671571
+1504888379422 2652657 bytes. 90 images. 1706.62 (mean) 1631 (median) 1887 (95th) 2127 (global-99.9) 330706 (src_dev;global) 1923 (max) 3 nodes
+BYNODE: 404302927 403664503 403551903
+1504888380422 2632352 bytes. 77 images. 1759.91 (mean) 1823 (median) 1887 (95th) 2127 (global-99.9) 377195 (src_dev;global) 1915 (max) 3 nodes
+BYNODE: 405237456 404559272 404354957
+1504888381423 2694746 bytes. 79 images. 1960.46 (mean) 1951 (median) 2079 (95th) 2127 (global-99.9) 349863 (src_dev;global) 2151 (max) 3 nodes
+BYNODE: 406102722 405446355 405297354
+1504888382424 2792892 bytes. 107 images. 1870.07 (mean) 1887 (median) 2015 (95th) 2127 (global-99.9) 333301 (src_dev;global) 2079 (max) 3 nodes
+BYNODE: 407012259 406375941 406251123
+1504888383425 2729194 bytes. 88 images. 1800.35 (mean) 1823 (median) 1951 (95th) 2127 (global-99.9) 338118 (src_dev;global) 1940 (max) 3 nodes
+BYNODE: 407928059 407287144 407153314
+1504888384425 2626216 bytes. 96 images. 1782.04 (mean) 1823 (median) 1887 (95th) 2127 (global-99.9) 362266 (src_dev;global) 1938 (max) 3 nodes
+BYNODE: 408837042 408151191 408006500
+1504888385426 2766783 bytes. 82 images. 1787.39 (mean) 1759 (median) 1887 (95th) 2127 (global-99.9) 334175 (src_dev;global) 1915 (max) 3 nodes
+BYNODE: 409720153 409087185 408954178
+1504888386426 2662632 bytes. 98 images. 1838.05 (mean) 1823 (median) 1951 (95th) 2127 (global-99.9) 325770 (src_dev;global) 1999 (max) 3 nodes
+BYNODE: 410594690 409985956 409843502
+1504888387427 2549683 bytes. 91 images. 1736.6 (mean) 1759 (median) 1823 (95th) 2127 (global-99.9) 362619 (src_dev;global) 1849 (max) 3 nodes
+BYNODE: 411497459 410809413 410666959
+1504888388428 2727257 bytes. 80 images. 1784.74 (mean) 1759 (median) 1887 (95th) 2127 (global-99.9) 326030 (src_dev;global) 1912 (max) 3 nodes
+BYNODE: 412354044 411744749 411602295
+1504888389428 2766857 bytes. 97 images. 1802.3 (mean) 1823 (median) 1887 (95th) 2127 (global-99.9) 329691 (src_dev;global) 1897 (max) 3 nodes
+BYNODE: 413281591 412664404 412521950
+1504888390429 2601067 bytes. 77 images. 1825.43 (mean) 1759 (median) 2079 (95th) 2127 (global-99.9) 344678 (src_dev;global) 2107 (max) 3 nodes
+BYNODE: 414171161 413514722 413383129
+1504888391430 2726413 bytes. 93 images. 1919.39 (mean) 1887 (median) 2143 (95th) 2127 (global-99.9) 335619 (src_dev;global) 2157 (max) 3 nodes
+BYNODE: 415055897 414479464 414260064
+1504888392430 2715084 bytes. 84 images. 1938.17 (mean) 1951 (median) 2143 (95th) 2127 (global-99.9) 331572 (src_dev;global) 2132 (max) 3 nodes
+BYNODE: 415967995 415326890 415215624
+1504888393431 2645035 bytes. 96 images. 1939.56 (mean) 1951 (median) 2015 (95th) 2127 (global-99.9) 340372 (src_dev;global) 2044 (max) 3 nodes
+BYNODE: 416857742 416228240 416069562
+1504888394432 2721418 bytes. 86 images. 1872.34 (mean) 1887 (median) 1951 (95th) 2127 (global-99.9) 318039 (src_dev;global) 1954 (max) 3 nodes
+BYNODE: 417734316 417143459 416999187
+1504888395432 2696335 bytes. 112 images. 1852.68 (mean) 1887 (median) 1951 (95th) 2127 (global-99.9) 307852 (src_dev;global) 1980 (max) 3 nodes
+BYNODE: 418614607 418066754 417891936
+1504888396433 2727766 bytes. 94 images. 1642.78 (mean) 1631 (median) 1695 (95th) 2127 (global-99.9) 323227 (src_dev;global) 1759 (max) 3 nodes
+BYNODE: 419549250 418950625 418801188
+1504888397434 2634725 bytes. 89 images. 1670.96 (mean) 1631 (median) 1823 (95th) 2127 (global-99.9) 337694 (src_dev;global) 1855 (max) 3 nodes
+BYNODE: 420440405 419853071 419642312
+1504888398434 2686093 bytes. 86 images. 1698.59 (mean) 1695 (median) 1823 (95th) 2127 (global-99.9) 328833 (src_dev;global) 1857 (max) 3 nodes
+BYNODE: 421332603 420711212 420578066
+1504888399435 2670284 bytes. 82 images. 1747.76 (mean) 1695 (median) 1887 (95th) 2127 (global-99.9) 346157 (src_dev;global) 1916 (max) 3 nodes
+BYNODE: 422242663 421613848 421435654
+1504888400436 2661221 bytes. 93 images. 1772.97 (mean) 1759 (median) 1887 (95th) 2127 (global-99.9) 318257 (src_dev;global) 1899 (max) 3 nodes
+BYNODE: 423092905 422504781 422355700
+1504888401437 2720234 bytes. 102 images. 1681 (mean) 1631 (median) 1887 (95th) 2127 (global-99.9) 304477 (src_dev;global) 1939 (max) 3 nodes
+BYNODE: 423972974 423449460 423251186
+1504888402437 2692377 bytes. 86 images. 1635.41 (mean) 1631 (median) 1823 (95th) 2127 (global-99.9) 320163 (src_dev;global) 1840 (max) 3 nodes
+BYNODE: 424894069 424332862 424139066
+1504888403438 2689326 bytes. 97 images. 1641.25 (mean) 1631 (median) 1759 (95th) 2127 (global-99.9) 293436 (src_dev;global) 1790 (max) 3 nodes
+BYNODE: 425753859 425239631 425061833
+1504888404438 2618435 bytes. 84 images. 1635.46 (mean) 1631 (median) 1823 (95th) 2127 (global-99.9) 345101 (src_dev;global) 1861 (max) 3 nodes
+BYNODE: 426698809 426087355 425887594
+1504888405439 2806646 bytes. 73 images. 1800.29 (mean) 1823 (median) 1951 (95th) 2127 (global-99.9) 327614 (src_dev;global) 1986 (max) 3 nodes
+BYNODE: 427616767 426999729 426863908
+1504888406440 2640880 bytes. 87 images. 1891.68 (mean) 1887 (median) 2015 (95th) 2127 (global-99.9) 311207 (src_dev;global) 2029 (max) 3 nodes
+BYNODE: 428474233 427887824 427759227
+1504888407440 2674408 bytes. 93 images. 1885.55 (mean) 1823 (median) 2079 (95th) 2127 (global-99.9) 336341 (src_dev;global) 2102 (max) 3 nodes
+BYNODE: 429396232 428789079 428610381
+1504888408441 2723836 bytes. 81 images. 1903.37 (mean) 1887 (median) 2015 (95th) 2127 (global-99.9) 328233 (src_dev;global) 2055 (max) 3 nodes
+BYNODE: 430287855 429721047 429510626
+1504888409441 2634488 bytes. 98 images. 1922.64 (mean) 1951 (median) 2079 (95th) 2127 (global-99.9) 333508 (src_dev;global) 2099 (max) 3 nodes
+BYNODE: 431182610 430556046 430415360
+1504888410442 2708783 bytes. 100 images. 1811.94 (mean) 1823 (median) 2015 (95th) 2127 (global-99.9) 342631 (src_dev;global) 2043 (max) 3 nodes
+BYNODE: 432084819 431510238 431267742
+1504888411443 2658044 bytes. 98 images. 1693.74 (mean) 1631 (median) 1951 (95th) 2127 (global-99.9) 327772 (src_dev;global) 1948 (max) 3 nodes
+BYNODE: 432961809 432356829 432202205
+1504888412443 2732588 bytes. 116 images. 1529 (mean) 1567 (median) 1887 (95th) 2127 (global-99.9) 306723 (src_dev;global) 1923 (max) 3 nodes
+BYNODE: 433838244 433300033 433115154
+1504888413444 2678820 bytes. 88 images. 1397.38 (mean) 1375 (median) 1567 (95th) 2127 (global-99.9) 316022 (src_dev;global) 1616 (max) 3 nodes
+BYNODE: 434748332 434170680 434013239
+1504888414445 2706050 bytes. 83 images. 1385.98 (mean) 1439 (median) 1695 (95th) 2127 (global-99.9) 331270 (src_dev;global) 1742 (max) 3 nodes
+BYNODE: 435667422 435083299 434887580
+1504888415445 2669992 bytes. 82 images. 1552.61 (mean) 1695 (median) 1823 (95th) 2127 (global-99.9) 325736 (src_dev;global) 1893 (max) 3 nodes
+BYNODE: 436556270 435946053 435805970
+1504888416446 2682304 bytes. 89 images. 1580.71 (mean) 1567 (median) 1887 (95th) 2127 (global-99.9) 304671 (src_dev;global) 1902 (max) 3 nodes
+BYNODE: 437419452 436858388 436712757
+1504888417447 2661175 bytes. 81 images. 1637.73 (mean) 1567 (median) 1887 (95th) 2127 (global-99.9) 316084 (src_dev;global) 1936 (max) 3 nodes
+BYNODE: 438317726 437760432 437573614
+1504888418447 2735914 bytes. 91 images. 1724.8 (mean) 1759 (median) 1951 (95th) 2127 (global-99.9) 316088 (src_dev;global) 1942 (max) 3 nodes
+BYNODE: 439233991 438653800 438499895
+1504888419448 2655164 bytes. 96 images. 1609.14 (mean) 1631 (median) 1759 (95th) 2127 (global-99.9) 299083 (src_dev;global) 1787 (max) 3 nodes
+BYNODE: 440090054 439569413 439383383
+1504888420449 2741811 bytes. 88 images. 1629.14 (mean) 1695 (median) 1759 (95th) 2127 (global-99.9) 325274 (src_dev;global) 1778 (max) 3 nodes
+BYNODE: 441045637 440449032 440289992
+1504888421449 2604393 bytes. 101 images. 1576.91 (mean) 1631 (median) 1759 (95th) 2127 (global-99.9) 324534 (src_dev;global) 1749 (max) 3 nodes
+BYNODE: 441913636 441313148 441162270
+1504888422450 2817070 bytes. 97 images. 1464.61 (mean) 1503 (median) 1631 (95th) 2127 (global-99.9) 323655 (src_dev;global) 1714 (max) 3 nodes
+BYNODE: 442848094 442267934 442090096
+1504888423451 2543630 bytes. 98 images. 1361.91 (mean) 1375 (median) 1567 (95th) 2127 (global-99.9) 334218 (src_dev;global) 1574 (max) 3 nodes
+BYNODE: 443715699 443086588 442947467
+1504888424451 2842269 bytes. 93 images. 1313.24 (mean) 1327 (median) 1503 (95th) 2127 (global-99.9) 324898 (src_dev;global) 1604 (max) 3 nodes
+BYNODE: 444647575 444051631 443892817
+1504888425452 2643024 bytes. 62 images. 1478.03 (mean) 1439 (median) 1695 (95th) 2127 (global-99.9) 312431 (src_dev;global) 1752 (max) 3 nodes
+BYNODE: 445511522 444937199 444786326
+1504888426453 2600021 bytes. 85 images. 1680.73 (mean) 1695 (median) 1759 (95th) 2127 (global-99.9) 320717 (src_dev;global) 1781 (max) 3 nodes
+BYNODE: 446390275 445797243 445647550
+1504888427453 2732666 bytes. 89 images. 1691.87 (mean) 1695 (median) 1759 (95th) 2127 (global-99.9) 326587 (src_dev;global) 1796 (max) 3 nodes
+BYNODE: 447311164 446695721 446560849
+1504888428454 2758303 bytes. 91 images. 1717.37 (mean) 1695 (median) 1823 (95th) 2127 (global-99.9) 323759 (src_dev;global) 1861 (max) 3 nodes
+BYNODE: 448220237 447646622 447459178
+1504888429455 2673223 bytes. 102 images. 1638.43 (mean) 1631 (median) 1759 (95th) 2127 (global-99.9) 317747 (src_dev;global) 1783 (max) 3 nodes
+BYNODE: 449101852 448544851 448352557
+1504888430455 2720006 bytes. 119 images. 1445.55 (mean) 1439 (median) 1631 (95th) 2127 (global-99.9) 324733 (src_dev;global) 1669 (max) 3 nodes
+BYNODE: 450023545 449425280 449270441
+1504888431456 2685754 bytes. 106 images. 1116.16 (mean) 1135 (median) 1295 (95th) 2127 (global-99.9) 326495 (src_dev;global) 1300 (max) 3 nodes
+BYNODE: 450919006 450330032 450155982
+1504888432456 2649836 bytes. 69 images. 1172.51 (mean) 1039 (median) 1567 (95th) 2127 (global-99.9) 302026 (src_dev;global) 1610 (max) 3 nodes
+BYNODE: 451766573 451231832 451056451
+1504888433457 2674165 bytes. 93 images. 1330.76 (mean) 1439 (median) 1567 (95th) 2127 (global-99.9) 322509 (src_dev;global) 1573 (max) 3 nodes
+BYNODE: 452686953 452111598 451930470
+1504888434458 2706857 bytes. 80 images. 1308.42 (mean) 1375 (median) 1631 (95th) 2127 (global-99.9) 319549 (src_dev;global) 1668 (max) 3 nodes
+BYNODE: 453591540 452983937 452860401
+1504888435458 2724790 bytes. 73 images. 1544.14 (mean) 1567 (median) 1759 (95th) 2127 (global-99.9) 320881 (src_dev;global) 1818 (max) 3 nodes
+BYNODE: 454494248 453926962 453739458
+1504888436459 2532078 bytes. 90 images. 1599.07 (mean) 1631 (median) 1695 (95th) 2127 (global-99.9) 347445 (src_dev;global) 1731 (max) 3 nodes
+BYNODE: 455375045 454759343 454558358
+1504888437460 2789571 bytes. 95 images. 1528.39 (mean) 1503 (median) 1695 (95th) 2127 (global-99.9) 310652 (src_dev;global) 1746 (max) 3 nodes
+BYNODE: 456257395 455690629 455534293
+1504888438460 2634412 bytes. 76 images. 1593.05 (mean) 1631 (median) 1695 (95th) 2127 (global-99.9) 331840 (src_dev;global) 1732 (max) 3 nodes
+BYNODE: 457152862 456604929 456358938
+1504888439461 2703775 bytes. 79 images. 1715.43 (mean) 1695 (median) 1951 (95th) 2127 (global-99.9) 323399 (src_dev;global) 2026 (max) 3 nodes
+BYNODE: 458058115 457445537 457316852
+1504888440462 2617819 bytes. 81 images. 1841.28 (mean) 1759 (median) 2143 (95th) 2127 (global-99.9) 351001 (src_dev;global) 2196 (max) 3 nodes
+BYNODE: 458975434 458248635 458214254
+1504888441462 2777678 bytes. 89 images. 1926.21 (mean) 1951 (median) 2079 (95th) 2127 (global-99.9) 342214 (src_dev;global) 2130 (max) 3 nodes
+BYNODE: 459872787 459280146 459063068
+1504888442463 2659612 bytes. 101 images. 1841.11 (mean) 1823 (median) 1951 (95th) 2127 (global-99.9) 325586 (src_dev;global) 1971 (max) 3 nodes
+BYNODE: 460745198 460135068 459995347
+1504888443464 2752677 bytes. 89 images. 1775.09 (mean) 1759 (median) 1887 (95th) 2127 (global-99.9) 315395 (src_dev;global) 1901 (max) 3 nodes
+BYNODE: 461643815 461079947 460904528
+1504888444465 2602908 bytes. 88 images. 1822.44 (mean) 1823 (median) 1951 (95th) 2127 (global-99.9) 341012 (src_dev;global) 1996 (max) 3 nodes
+BYNODE: 462548190 461930756 461752252
+1504888445465 2714008 bytes. 97 images. 1808.42 (mean) 1823 (median) 1951 (95th) 2127 (global-99.9) 342201 (src_dev;global) 1945 (max) 3 nodes
+BYNODE: 463454580 462834565 462656061
+1504888446466 2768027 bytes. 97 images. 1721.76 (mean) 1695 (median) 1823 (95th) 2127 (global-99.9) 318939 (src_dev;global) 1858 (max) 3 nodes
+BYNODE: 464346962 463758601 463607670
+1504888447466 2570179 bytes. 80 images. 1746.49 (mean) 1759 (median) 1887 (95th) 2127 (global-99.9) 351874 (src_dev;global) 1948 (max) 3 nodes
+BYNODE: 465248700 464603585 464431127
+1504888448467 2776405 bytes. 98 images. 1734.09 (mean) 1695 (median) 1887 (95th) 2127 (global-99.9) 288434 (src_dev;global) 1938 (max) 3 nodes
+BYNODE: 466083157 465571102 465405558
+1504888449468 2678716 bytes. 76 images. 1756.83 (mean) 1759 (median) 1951 (95th) 2127 (global-99.9) 331528 (src_dev;global) 1964 (max) 3 nodes
+BYNODE: 467035892 466444344 466258297
+1504888450468 2617188 bytes. 78 images. 1929.58 (mean) 1951 (median) 2143 (95th) 2127 (global-99.9) 327260 (src_dev;global) 2186 (max) 3 nodes
+BYNODE: 467902396 467318548 467134777
+1504888451469 2710665 bytes. 93 images. 1969.06 (mean) 1951 (median) 2079 (95th) 2127 (global-99.9) 298836 (src_dev;global) 2115 (max) 3 nodes
+BYNODE: 468774213 468195483 468096690
+1504888452470 2728680 bytes. 91 images. 1951.89 (mean) 1951 (median) 2079 (95th) 2127 (global-99.9) 300579 (src_dev;global) 2102 (max) 3 nodes
+BYNODE: 469680868 469133426 468980772
+1504888453471 2706290 bytes. 89 images. 1951.84 (mean) 1951 (median) 2143 (95th) 2159 (global-99.9) 337166 (src_dev;global) 2166 (max) 3 nodes
+BYNODE: 470627521 470044360 469829475
+1504888454471 2614192 bytes. 99 images. 1926.65 (mean) 1887 (median) 2143 (95th) 2159 (global-99.9) 321613 (src_dev;global) 2193 (max) 3 nodes
+BYNODE: 471485868 470885969 470743711
+1504888455472 2771164 bytes. 107 images. 1758.36 (mean) 1759 (median) 1951 (95th) 2159 (global-99.9) 302736 (src_dev;global) 2022 (max) 3 nodes
+BYNODE: 472377909 471843205 471665598
+1504888456473 2642976 bytes. 108 images. 1541.68 (mean) 1503 (median) 1759 (95th) 2159 (global-99.9) 328080 (src_dev;global) 1779 (max) 3 nodes
+BYNODE: 473291668 472722120 472515900
+1504888457473 2642128 bytes. 85 images. 1454.71 (mean) 1503 (median) 1567 (95th) 2159 (global-99.9) 332596 (src_dev;global) 1629 (max) 3 nodes
+BYNODE: 474190906 473539309 473441601
+1504888458474 2742553 bytes. 81 images. 1571.05 (mean) 1567 (median) 1695 (95th) 2159 (global-99.9) 323643 (src_dev;global) 1726 (max) 3 nodes
+BYNODE: 475085806 474496754 474331809
+1504888459475 2668546 bytes. 92 images. 1614.27 (mean) 1631 (median) 1759 (95th) 2159 (global-99.9) 328035 (src_dev;global) 1787 (max) 3 nodes
+BYNODE: 475983898 475372178 475226839
+1504888460475 2758750 bytes. 101 images. 1523.83 (mean) 1503 (median) 1695 (95th) 2159 (global-99.9) 314663 (src_dev;global) 1786 (max) 3 nodes
+BYNODE: 476879934 476320806 476140925
+1504888461476 2670001 bytes. 89 images. 1491.82 (mean) 1503 (median) 1695 (95th) 2159 (global-99.9) 331847 (src_dev;global) 1714 (max) 3 nodes
+BYNODE: 477794543 477199810 477017313
+1504888462476 2618376 bytes. 97 images. 1442.56 (mean) 1375 (median) 1759 (95th) 2159 (global-99.9) 338705 (src_dev;global) 1792 (max) 3 nodes
+BYNODE: 478681809 478045803 477902430
+1504888463477 2745067 bytes. 83 images. 1446.16 (mean) 1503 (median) 1567 (95th) 2159 (global-99.9) 314963 (src_dev;global) 1611 (max) 3 nodes
+BYNODE: 479554831 479011429 478808849
+1504888464478 2700352 bytes. 90 images. 1501.01 (mean) 1503 (median) 1695 (95th) 2159 (global-99.9) 305915 (src_dev;global) 1697 (max) 3 nodes
+BYNODE: 480446389 479899956 479729116
+1504888465478 2691625 bytes. 80 images. 1540.38 (mean) 1567 (median) 1695 (95th) 2159 (global-99.9) 313175 (src_dev;global) 1705 (max) 3 nodes
+BYNODE: 481355969 480783703 480627414
+1504888466479 2627852 bytes. 79 images. 1677.46 (mean) 1759 (median) 1887 (95th) 2159 (global-99.9) 299294 (src_dev;global) 1904 (max) 3 nodes
+BYNODE: 482212604 481666248 481516086
+1504888467480 2681632 bytes. 93 images. 1725.54 (mean) 1759 (median) 2015 (95th) 2159 (global-99.9) 311125 (src_dev;global) 1999 (max) 3 nodes
+BYNODE: 483118988 482571424 482386158
+1504888468480 2729872 bytes. 84 images. 1746.87 (mean) 1823 (median) 1951 (95th) 2159 (global-99.9) 305309 (src_dev;global) 1971 (max) 3 nodes
+BYNODE: 484024751 483467493 483314198
+1504888469481 2714806 bytes. 95 images. 1715.36 (mean) 1759 (median) 1887 (95th) 2159 (global-99.9) 331098 (src_dev;global) 1903 (max) 3 nodes
+BYNODE: 484957410 484393019 484170819
+1504888470481 2622848 bytes. 94 images. 1690.5 (mean) 1759 (median) 2015 (95th) 2159 (global-99.9) 302400 (src_dev;global) 2015 (max) 3 nodes
+BYNODE: 485804413 485224081 485115602
+1504888471482 2708316 bytes. 105 images. 1595.05 (mean) 1631 (median) 1887 (95th) 2159 (global-99.9) 301685 (src_dev;global) 1944 (max) 3 nodes
+BYNODE: 486702757 486146164 486003491
+1504888472483 2690847 bytes. 108 images. 1382.23 (mean) 1375 (median) 1695 (95th) 2159 (global-99.9) 295754 (src_dev;global) 1743 (max) 3 nodes
+BYNODE: 487583027 487080306 486879926
+1504888473484 2661142 bytes. 84 images. 1342.27 (mean) 1439 (median) 1503 (95th) 2159 (global-99.9) 299827 (src_dev;global) 1540 (max) 3 nodes
+BYNODE: 488486854 487916646 487800901
+1504888474484 2694562 bytes. 95 images. 1344.11 (mean) 1327 (median) 1631 (95th) 2159 (global-99.9) 278776 (src_dev;global) 1668 (max) 3 nodes
+BYNODE: 489343320 488877711 488677932
+1504888475485 2686694 bytes. 102 images. 1246.26 (mean) 1231 (median) 1439 (95th) 2159 (global-99.9) 313141 (src_dev;global) 1463 (max) 3 nodes
+BYNODE: 490295086 489724906 489565665
+1504888476486 2664279 bytes. 67 images. 1257.1 (mean) 1231 (median) 1503 (95th) 2159 (global-99.9) 287646 (src_dev;global) 1559 (max) 3 nodes
+BYNODE: 491148868 490619639 490481429
+1504888477487 2691336 bytes. 72 images. 1596.22 (mean) 1631 (median) 1823 (95th) 2159 (global-99.9) 286659 (src_dev;global) 1841 (max) 3 nodes
+BYNODE: 492034548 491556645 491350079
+1504888478488 2745167 bytes. 97 images. 1609.38 (mean) 1567 (median) 1823 (95th) 2159 (global-99.9) 301618 (src_dev;global) 1836 (max) 3 nodes
+BYNODE: 492973835 492452970 492259634
+1504888479489 2675682 bytes. 82 images. 1546.13 (mean) 1567 (median) 1759 (95th) 2159 (global-99.9) 289269 (src_dev;global) 1822 (max) 3 nodes
+BYNODE: 493853618 493330198 493178305
+1504888480489 2566077 bytes. 94 images. 1640.06 (mean) 1695 (median) 1823 (95th) 2159 (global-99.9) 326028 (src_dev;global) 1882 (max) 3 nodes
+BYNODE: 494769261 494108401 494050536
+1504888481490 2785522 bytes. 97 images. 1541.51 (mean) 1503 (median) 1759 (95th) 2159 (global-99.9) 301289 (src_dev;global) 1844 (max) 3 nodes
+BYNODE: 495659851 495078268 494975601
+1504888482490 2732152 bytes. 103 images. 1450.29 (mean) 1439 (median) 1631 (95th) 2159 (global-99.9) 299989 (src_dev;global) 1725 (max) 3 nodes
+BYNODE: 496557278 496042995 495845599
+1504888483491 1921526 bytes. 86 images. 1365.91 (mean) 1327 (median) 1567 (95th) 2159 (global-99.9) 312187 (src_dev;global) 1597 (max) 3 nodes
+BYNODE: 497215722 496674364 496477312
+1504888484492 1813918 bytes. 55 images. 1564.16 (mean) 1567 (median) 1887 (95th) 2159 (global-99.9) 302785 (src_dev;global) 1934 (max) 3 nodes
+BYNODE: 497806231 497287175 497087910
+1504888485492 1833779 bytes. 49 images. 2120.65 (mean) 2143 (median) 2399 (95th) 2159 (global-99.9) 295929 (src_dev;global) 2414 (max) 3 nodes
+BYNODE: 498412607 497883539 497718949
+1504888486493 1780187 bytes. 60 images. 2504.3 (mean) 2527 (median) 2655 (95th) 2479 (global-99.9) 302895 (src_dev;global) 2721 (max) 3 nodes
+BYNODE: 499012820 498485186 498297276
+1504888487493 1708724 bytes. 60 images. 2797.38 (mean) 2751 (median) 3007 (95th) 2783 (global-99.9) 278869 (src_dev;global) 3015 (max) 3 nodes
+BYNODE: 499547166 499072375 498884465
+1504888488494 1870696 bytes. 63 images. 3127.52 (mean) 3135 (median) 3391 (95th) 3103 (global-99.9) 284497 (src_dev;global) 3375 (max) 3 nodes
+BYNODE: 500179004 499691804 499503894
+1504888489495 1691109 bytes. 60 images. 3446.25 (mean) 3391 (median) 3647 (95th) 3423 (global-99.9) 300599 (src_dev;global) 3668 (max) 3 nodes
+BYNODE: 500766305 500243708 500055798
+1504888490497 1844333 bytes. 75 images. 3658.41 (mean) 3647 (median) 3775 (95th) 3679 (global-99.9) 299200 (src_dev;global) 3816 (max) 3 nodes
+BYNODE: 501388555 500814828 500706761
+1504888491497 1810092 bytes. 75 images. 3869.16 (mean) 3903 (median) 4031 (95th) 3871 (global-99.9) 296502 (src_dev;global) 4040 (max) 3 nodes
+BYNODE: 501986852 501427276 501306108
+1504888492498 1761939 bytes. 81 images. 3985.51 (mean) 4031 (median) 4159 (95th) 3999 (global-99.9) 287209 (src_dev;global) 4147 (max) 3 nodes
+BYNODE: 502560115 502025055 501897005
+1504888493499 1850423 bytes. 96 images. 4002.01 (mean) 4031 (median) 4159 (95th) 4127 (global-99.9) 299663 (src_dev;global) 4244 (max) 3 nodes
+BYNODE: 503193261 502640904 502498433
+1504888494499 1742363 bytes. 93 images. 3942.08 (mean) 3903 (median) 4159 (95th) 4127 (global-99.9) 290932 (src_dev;global) 4164 (max) 3 nodes
+BYNODE: 503762370 503223524 503089067
+1504888495500 1737824 bytes. 78 images. 3961.05 (mean) 3903 (median) 4159 (95th) 4127 (global-99.9) 280568 (src_dev;global) 4135 (max) 3 nodes
+BYNODE: 504327987 503803827 503680971
+1504888496501 1816909 bytes. 72 images. 4135.47 (mean) 4159 (median) 4287 (95th) 4191 (global-99.9) 264530 (src_dev;global) 4326 (max) 3 nodes
+BYNODE: 504901256 504458174 504270264
+1504888497501 1734588 bytes. 60 images. 4409.72 (mean) 4415 (median) 4543 (95th) 4383 (global-99.9) 276381 (src_dev;global) 4616 (max) 3 nodes
+BYNODE: 505508045 504977862 504878375
+1504888498502 1831861 bytes. 66 images. 4715.56 (mean) 4671 (median) 4927 (95th) 4703 (global-99.9) 300365 (src_dev;global) 4899 (max) 3 nodes
+BYNODE: 506152859 505571815 505471469
+1504888499503 1741752 bytes. 66 images. 4973.77 (mean) 4927 (median) 5247 (95th) 4959 (global-99.9) 292424 (src_dev;global) 5153 (max) 3 nodes
+BYNODE: 506711697 506207054 506019144
+1504888500503 1938988 bytes. 72 images. 5228.88 (mean) 5247 (median) 5503 (95th) 5215 (global-99.9) 282384 (src_dev;global) 5444 (max) 3 nodes
+BYNODE: 507343293 506860750 506672840
+1504888501504 1734399 bytes. 69 images. 5463 (mean) 5503 (median) 5503 (95th) 5471 (global-99.9) 294476 (src_dev;global) 5634 (max) 3 nodes
+BYNODE: 507947943 507390633 507272706
+1504888502505 1746838 bytes. 66 images. 5702.29 (mean) 5759 (median) 5759 (95th) 5695 (global-99.9) 306629 (src_dev;global) 5898 (max) 3 nodes
+BYNODE: 508539222 508003404 507815494
+1504888503505 1854515 bytes. 63 images. 5996.97 (mean) 6015 (median) 6271 (95th) 5951 (global-99.9) 313455 (src_dev;global) 6253 (max) 3 nodes
+BYNODE: 509167357 508616594 508428684
+1504888504506 1769691 bytes. 60 images. 6331.78 (mean) 6271 (median) 6527 (95th) 6335 (global-99.9) 278423 (src_dev;global) 6557 (max) 3 nodes
+BYNODE: 509705950 509232143 509044233
+1504888505507 1668801 bytes. 57 images. 6677.7 (mean) 6783 (median) 6783 (95th) 6591 (global-99.9) 311182 (src_dev;global) 6869 (max) 3 nodes
+BYNODE: 510310205 509764416 509576506
+1504888506507 1862394 bytes. 69 images. 6976.7 (mean) 7039 (median) 7039 (95th) 6975 (global-99.9) 309547 (src_dev;global) 7144 (max) 3 nodes
+BYNODE: 510913542 510435069 510164910
+1504888507508 1777446 bytes. 69 images. 7179.97 (mean) 7295 (median) 7295 (95th) 7231 (global-99.9) 322739 (src_dev;global) 7333 (max) 3 nodes
+BYNODE: 511540329 510969274 510781364
+1504888508508 1797232 bytes. 72 images. 7391.11 (mean) 7295 (median) 7551 (95th) 7359 (global-99.9) 292762 (src_dev;global) 7572 (max) 3 nodes
+BYNODE: 512095627 511590241 511402331
+1504888509509 1882401 bytes. 78 images. 7569.86 (mean) 7551 (median) 7807 (95th) 7615 (global-99.9) 288584 (src_dev;global) 7738 (max) 3 nodes
+BYNODE: 512716968 512220771 512032861
+1504888510510 1719769 bytes. 63 images. 7799.02 (mean) 7807 (median) 8063 (95th) 7743 (global-99.9) 312433 (src_dev;global) 8021 (max) 3 nodes
+BYNODE: 513325111 512776584 512588674
+1504888511510 1825913 bytes. 66 images. 8084.95 (mean) 8063 (median) 8319 (95th) 8127 (global-99.9) 320499 (src_dev;global) 8262 (max) 3 nodes
+BYNODE: 513945506 513379343 513191433
+1504888512511 1799328 bytes. 72 images. 8317.18 (mean) 8319 (median) 8575 (95th) 8255 (global-99.9) 312928 (src_dev;global) 8481 (max) 3 nodes
+BYNODE: 514534246 513984637 513796727
+1504888513512 1791539 bytes. 69 images. 8532.43 (mean) 8575 (median) 8575 (95th) 8511 (global-99.9) 307661 (src_dev;global) 8734 (max) 3 nodes
+BYNODE: 515123739 514585660 514397750
+1504888514512 1767233 bytes. 63 images. 8809.08 (mean) 8831 (median) 9087 (95th) 8767 (global-99.9) 306564 (src_dev;global) 9020 (max) 3 nodes
+BYNODE: 515711214 515175539 514987629
+1504888515513 1777637 bytes. 66 images. 9078.08 (mean) 9087 (median) 9343 (95th) 9023 (global-99.9) 322188 (src_dev;global) 9250 (max) 3 nodes
+BYNODE: 516326545 515756692 515568782
+1504888516514 1861625 bytes. 69 images. 9324.86 (mean) 9343 (median) 9599 (95th) 9279 (global-99.9) 308194 (src_dev;global) 9552 (max) 3 nodes
+BYNODE: 516926682 516387436 516199526
+1504888517514 1704779 bytes. 63 images. 9607.67 (mean) 9599 (median) 9855 (95th) 9535 (global-99.9) 284156 (src_dev;global) 9778 (max) 3 nodes
+BYNODE: 517459743 516973295 516785385
+1504888518515 1810318 bytes. 66 images. 9866.62 (mean) 9855 (median) 10111 (95th) 9791 (global-99.9) 314623 (src_dev;global) 10105 (max) 3 nodes
+BYNODE: 518092363 517604633 517331745
+1504888519516 1798828 bytes. 60 images. 10186.7 (mean) 10111 (median) 10495 (95th) 10175 (global-99.9) 316707 (src_dev;global) 10445 (max) 3 nodes
+BYNODE: 518710409 518152535 517964625
+1504888520517 1828963 bytes. 63 images. 10490.3 (mean) 10495 (median) 10495 (95th) 10431 (global-99.9) 307831 (src_dev;global) 10742 (max) 3 nodes
+BYNODE: 519307114 518768664 518580754
+1504888521518 1732452 bytes. 63 images. 10801.7 (mean) 11007 (median) 11007 (95th) 10815 (global-99.9) 301163 (src_dev;global) 10994 (max) 3 nodes
+BYNODE: 519874854 519351020 519163110
+1504888522519 1801328 bytes. 66 images. 11066 (mean) 11007 (median) 11007 (95th) 11135 (global-99.9) 327186 (src_dev;global) 11265 (max) 3 nodes
+BYNODE: 520513250 519932486 519744576
+1504888523519 1875711 bytes. 72 images. 11327.4 (mean) 11519 (median) 11519 (95th) 11391 (global-99.9) 309637 (src_dev;global) 11495 (max) 3 nodes
+BYNODE: 521112915 520570509 520382599
+1504888524520 1712868 bytes. 72 images. 11511.5 (mean) 11519 (median) 11519 (95th) 11391 (global-99.9) 290309 (src_dev;global) 11676 (max) 3 nodes
+BYNODE: 521655595 521155603 520967693
+1504888525521 1856107 bytes. 84 images. 11640.2 (mean) 11519 (median) 11519 (95th) 11647 (global-99.9) 291486 (src_dev;global) 11809 (max) 3 nodes
+BYNODE: 522276024 521773442 521585532
+1504888526522 1761779 bytes. 84 images. 11715.6 (mean) 11519 (median) 12031 (95th) 11647 (global-99.9) 320159 (src_dev;global) 11836 (max) 3 nodes
+BYNODE: 522892809 522381856 522122112
+1504888527522 1798248 bytes. 69 images. 11855.2 (mean) 12031 (median) 12031 (95th) 11903 (global-99.9) 296049 (src_dev;global) 12121 (max) 3 nodes
+BYNODE: 523469385 522956775 522768865
+1504888528523 1730976 bytes. 57 images. 12183.5 (mean) 12031 (median) 12543 (95th) 12159 (global-99.9) 305657 (src_dev;global) 12413 (max) 3 nodes
+BYNODE: 524060429 523526741 523338831
+1504888529524 1811834 bytes. 66 images. 12472.3 (mean) 12543 (median) 12543 (95th) 12415 (global-99.9) 330479 (src_dev;global) 12689 (max) 3 nodes
+BYNODE: 524700547 524112599 523924689
+1504888530524 1850433 bytes. 72 images. 12719.4 (mean) 12543 (median) 13055 (95th) 12671 (global-99.9) 289963 (src_dev;global) 12923 (max) 3 nodes
+BYNODE: 525258214 524758982 524571072
+1504888531525 1747170 bytes. 78 images. 12905.1 (mean) 13055 (median) 13055 (95th) 12927 (global-99.9) 273988 (src_dev;global) 13005 (max) 3 nodes
+BYNODE: 525817126 525353111 525165201
+1504888532526 1850817 bytes. 75 images. 13062.9 (mean) 13055 (median) 13055 (95th) 13183 (global-99.9) 307116 (src_dev;global) 13203 (max) 3 nodes
+BYNODE: 526482645 525945760 525757850
+1504888533527 1765465 bytes. 72 images. 13229 (mean) 13055 (median) 13567 (95th) 13183 (global-99.9) 309230 (src_dev;global) 13392 (max) 3 nodes
+BYNODE: 527074220 526532705 526344795
+1504888534527 1744602 bytes. 69 images. 13421.4 (mean) 13567 (median) 13567 (95th) 13439 (global-99.9) 285705 (src_dev;global) 13587 (max) 3 nodes
+BYNODE: 527621318 527131457 526943547
+1504888535528 1826373 bytes. 69 images. 13664.4 (mean) 13567 (median) 14079 (95th) 13695 (global-99.9) 330063 (src_dev;global) 13884 (max) 3 nodes
+BYNODE: 528278750 527762067 527481878
+1504888536529 1758023 bytes. 63 images. 13929 (mean) 14079 (median) 14079 (95th) 13951 (global-99.9) 280001 (src_dev;global) 14172 (max) 3 nodes
+BYNODE: 528807736 528330446 528142536
+1504888537529 1845462 bytes. 63 images. 14245.7 (mean) 14079 (median) 14591 (95th) 14207 (global-99.9) 276675 (src_dev;global) 14495 (max) 3 nodes
+BYNODE: 529417996 528948047 528760137
+1504888538530 1742382 bytes. 60 images. 14574 (mean) 14591 (median) 14591 (95th) 14463 (global-99.9) 319117 (src_dev;global) 14774 (max) 3 nodes
+BYNODE: 530060920 529497776 529309866
+1504888539531 1799748 bytes. 69 images. 14821.5 (mean) 14591 (median) 15103 (95th) 14719 (global-99.9) 302594 (src_dev;global) 15037 (max) 3 nodes
+BYNODE: 530636722 530109749 529921839
+1504888540531 1800281 bytes. 63 images. 15098.4 (mean) 15103 (median) 15103 (95th) 14975 (global-99.9) 303060 (src_dev;global) 15346 (max) 3 nodes
+BYNODE: 531237497 530709502 530521592
+1504888541532 1747203 bytes. 63 images. 15399.7 (mean) 15615 (median) 15615 (95th) 15487 (global-99.9) 296141 (src_dev;global) 15606 (max) 3 nodes
+BYNODE: 531809776 531296964 531109054
+1504888542533 1880888 bytes. 72 images. 15656 (mean) 15615 (median) 15615 (95th) 15743 (global-99.9) 276156 (src_dev;global) 15835 (max) 3 nodes
+BYNODE: 532407400 531938596 531750686
+1504888543533 7839470 bytes. 326 images. 14526 (mean) 14591 (median) 15615 (95th) 15743 (global-99.9) 338128 (src_dev;global) 15866 (max) 3 nodes
+BYNODE: 535099734 534547323 534289095
+1504888544534 8886742 bytes. 388 images. 11486.3 (mean) 11519 (median) 13055 (95th) 15743 (global-99.9) 321874 (src_dev;global) 13173 (max) 3 nodes
+BYNODE: 538049712 537480546 537292636
+1504888545535 8952800 bytes. 339 images. 8452.48 (mean) 8575 (median) 9599 (95th) 15743 (global-99.9) 311136 (src_dev;global) 9858 (max) 3 nodes
+BYNODE: 541018326 540472639 540284729
+1504888546535 8957786 bytes. 381 images. 5451.96 (mean) 5503 (median) 6783 (95th) 15743 (global-99.9) 290823 (src_dev;global) 7143 (max) 3 nodes
+BYNODE: 543960066 543518187 543255227
+1504888547536 8970571 bytes. 318 images. 2566.75 (mean) 2591 (median) 3647 (95th) 15743 (global-99.9) 306644 (src_dev;global) 3936 (max) 3 nodes
+BYNODE: 546975173 546493722 546235156
+1504888548536 6849625 bytes. 202 images. 541.936 (mean) 503 (median) 1199 (95th) 15743 (global-99.9) 294431 (src_dev;global) 1360 (max) 3 nodes
+BYNODE: 549246546 548766814 548540316
+1504888549537 3666249 bytes. 91 images. 43.1538 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 228858 (src_dev;global) 67 (max) 3 nodes
+BYNODE: 550364272 550050583 549805070
+1504888550539 3639417 bytes. 90 images. 42.0333 (mean) 38 (median) 60 (95th) 15743 (global-99.9) 332532 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 551730577 551198278 550930487
+1504888551539 4367345 bytes. 90 images. 43.0333 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 377398 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 553249376 552632688 552344623
+1504888552540 5003660 bytes. 90 images. 45.4222 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 507597 (src_dev;global) 66 (max) 3 nodes
+BYNODE: 555107069 554210549 553912729
+1504888553541 5599388 bytes. 91 images. 44.6264 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 434428 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 556863223 556141300 555825212
+1504888554542 4991823 bytes. 90 images. 44.0889 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 458975 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 558565495 557779826 557476237
+1504888555542 5156836 bytes. 90 images. 43.7556 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 452564 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 560276762 559497202 559204430
+1504888556543 5137624 bytes. 89 images. 44.8989 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 498516 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 562050993 561196858 560868167
+1504888557544 5898948 bytes. 91 images. 45.7363 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 557241 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 564104095 563116589 562794282
+1504888558544 5789338 bytes. 90 images. 45.6889 (mean) 46 (median) 60 (95th) 15743 (global-99.9) 510254 (src_dev;global) 71 (max) 3 nodes
+BYNODE: 565966371 565076618 564761315
+1504888559545 5410891 bytes. 89 images. 45.2247 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 494469 (src_dev;global) 85 (max) 3 nodes
+BYNODE: 567756507 566852067 566606621
+1504888560546 5175925 bytes. 91 images. 44.2967 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 409969 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 569345791 568684733 568360596
+1504888561546 4607757 bytes. 89 images. 42.7978 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 426180 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 570919536 570159625 569919716
+1504888562547 4955327 bytes. 91 images. 44.3297 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 444113 (src_dev;global) 68 (max) 3 nodes
+BYNODE: 572588668 571832110 571533426
+1504888563548 4796616 bytes. 90 images. 43.2667 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 421452 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 574155961 573441447 573153412
+1504888564548 5069388 bytes. 90 images. 44.5333 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 500115 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 575958191 575084212 574777805
+1504888565549 5266621 bytes. 89 images. 44.7303 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 481287 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 577694232 576820793 576571804
+1504888566550 5267267 bytes. 90 images. 44.5556 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 508758 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 579490644 578552074 578311378
+1504888567550 5288626 bytes. 91 images. 44.3407 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 432750 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 581132110 580412301 580098311
+1504888568551 5086137 bytes. 90 images. 44.8444 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 495595 (src_dev;global) 69 (max) 3 nodes
+BYNODE: 582921931 582054005 581752923
+1504888569552 5652708 bytes. 90 images. 46.2667 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 558917 (src_dev;global) 83 (max) 3 nodes
+BYNODE: 584895317 583904575 583581675
+1504888570552 5581260 bytes. 90 images. 44.9222 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 494469 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 586667318 585790045 585505464
+1504888571553 5366567 bytes. 90 images. 44.4222 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 425295 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 588350369 587645363 587333662
+1504888572554 4620162 bytes. 89 images. 43.236 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 375340 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 589828255 589182778 588938523
+1504888573554 4190849 bytes. 90 images. 42.3222 (mean) 40 (median) 60 (95th) 15743 (global-99.9) 304411 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 591123156 590623149 590394100
+1504888574555 4022928 bytes. 91 images. 42.6703 (mean) 39 (median) 60 (95th) 15743 (global-99.9) 363774 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 592545761 591940896 591676676
+1504888575556 4942949 bytes. 90 images. 44.8556 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 563289 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 594478600 593467858 593159824
+1504888576556 5616540 bytes. 90 images. 44.9778 (mean) 46 (median) 60 (95th) 15743 (global-99.9) 466966 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 596209732 595412205 595100885
+1504888577557 5111877 bytes. 89 images. 44.1573 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 400439 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 597824727 597133575 596876397
+1504888578558 4489739 bytes. 90 images. 43.7778 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 422532 (src_dev;global) 74 (max) 3 nodes
+BYNODE: 599356575 598602104 598365759
+1504888579558 4718245 bytes. 91 images. 44.3187 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 402141 (src_dev;global) 87 (max) 3 nodes
+BYNODE: 600890802 600221692 599930189
+1504888580560 4669140 bytes. 89 images. 43.8315 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 453358 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 602530115 601710144 601471564
+1504888581561 5042489 bytes. 90 images. 44.0889 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 454457 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 604211484 603394784 603148044
+1504888582561 5415847 bytes. 91 images. 46.2527 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 607226 (src_dev;global) 70 (max) 3 nodes
+BYNODE: 606232484 605113122 604824553
+1504888583561 5934460 bytes. 89 images. 45.3146 (mean) 46 (median) 60 (95th) 15743 (global-99.9) 500388 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 608060281 607150060 606894278
+1504888584561 5325517 bytes. 90 images. 44.9111 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 542783 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 609897772 608889016 608643348
+1504888585562 5444713 bytes. 89 images. 44.8989 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 497388 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 611637569 610776818 610460462
+1504888586562 5290303 bytes. 91 images. 44.4396 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 452647 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 613346478 612530126 612288548
+1504888587562 4906225 bytes. 90 images. 43.1778 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 412736 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 614924288 614193009 613954080
+1504888588562 4376937 bytes. 89 images. 43.0225 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 350280 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 616283509 615724508 615440297
+1504888589563 4214638 bytes. 91 images. 43.6923 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 399906 (src_dev;global) 70 (max) 3 nodes
+BYNODE: 617767789 617072642 616822521
+1504888590563 4402329 bytes. 89 images. 43.1124 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 361979 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 619172013 618592071 618301197
+1504888591563 4259268 bytes. 90 images. 42.4444 (mean) 39 (median) 60 (95th) 15743 (global-99.9) 387464 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 620630654 619989987 619703908
+1504888592563 4219070 bytes. 90 images. 43.1222 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 356864 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 621992291 621416528 621134800
+1504888593563 4064227 bytes. 90 images. 42.1667 (mean) 39 (median) 60 (95th) 15743 (global-99.9) 342822 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 623326671 622779824 622501351
+1504888594563 4344556 bytes. 90 images. 42.9667 (mean) 40 (median) 60 (95th) 15743 (global-99.9) 448721 (src_dev;global) 63 (max) 3 nodes
+BYNODE: 624927087 624165297 623860018
+1504888595564 5282171 bytes. 90 images. 45.0889 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 595505 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 626900525 625824392 625509656
+1504888596564 5686560 bytes. 90 images. 44.9444 (mean) 46 (median) 60 (95th) 15743 (global-99.9) 430521 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 628549769 627856387 627514977
+1504888597564 4798439 bytes. 90 images. 44.3111 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 472010 (src_dev;global) 64 (max) 3 nodes
+BYNODE: 630217468 629402283 629099821
+1504888598564 5016916 bytes. 90 images. 44.3444 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 469104 (src_dev;global) 74 (max) 3 nodes
+BYNODE: 631886629 631072576 630777283
+1504888599564 4815906 bytes. 90 images. 44.2778 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 411119 (src_dev;global) 87 (max) 3 nodes
+BYNODE: 633406117 632722283 632423994
+1504888600565 4285313 bytes. 90 images. 43.2444 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 359035 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 634761167 634176711 633899829
+1504888601565 4071491 bytes. 90 images. 42.8222 (mean) 39 (median) 60 (95th) 15743 (global-99.9) 365719 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 636128733 635527458 635253007
+1504888602565 4656104 bytes. 90 images. 43.9556 (mean) 40 (median) 60 (95th) 15743 (global-99.9) 521701 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 637903279 636989143 636672880
+1504888603565 5507439 bytes. 90 images. 45.2 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 570806 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 639810451 638789704 638472586
+1504888604565 5952548 bytes. 90 images. 46.1667 (mean) 46 (median) 60 (95th) 15743 (global-99.9) 605466 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 641845224 640747244 640432821
+1504888605565 5848414 bytes. 90 images. 45.4333 (mean) 46 (median) 60 (95th) 15743 (global-99.9) 482194 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 643612480 642796177 642465046
+1504888606566 4981033 bytes. 90 images. 43.8556 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 488515 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 645288268 644429086 644137382
+1504888607566 4911349 bytes. 90 images. 43.9889 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 406595 (src_dev;global) 62 (max) 3 nodes
+BYNODE: 646805287 646125883 645834915
+1504888608566 4252519 bytes. 90 images. 43.0889 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 330815 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 648112792 647590774 647315038
+1504888609566 3636937 bytes. 90 images. 42.3556 (mean) 39 (median) 60 (95th) 15743 (global-99.9) 260713 (src_dev;global) 67 (max) 3 nodes
+BYNODE: 649222954 648844311 648588276
+1504888610567 3689454 bytes. 91 images. 42.011 (mean) 39 (median) 60 (95th) 15743 (global-99.9) 371296 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 650608969 650022238 649713788
+1504888611568 4316711 bytes. 89 images. 42.9438 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 424107 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 652130858 651407346 651123502
+1504888612568 5034427 bytes. 91 images. 44.1538 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 555092 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 653988783 653034509 652672841
+1504888613568 5472940 bytes. 89 images. 45.0225 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 464450 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 655687183 654899421 654582469
+1504888614568 5065264 bytes. 91 images. 43.6923 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 479299 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 657389455 656603786 656241096
+1504888615568 5149885 bytes. 90 images. 44.5 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 475206 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 659100722 658321162 657962338
+1504888616569 5153490 bytes. 89 images. 44.7528 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 556880 (src_dev;global) 62 (max) 3 nodes
+BYNODE: 660945726 659952662 659639324
+1504888617569 5816073 bytes. 90 images. 45.9 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 587384 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 662928055 661871929 661553801
+1504888618569 5786417 bytes. 90 images. 46.0556 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 543180 (src_dev;global) 71 (max) 3 nodes
+BYNODE: 664790331 663841863 663508008
+1504888619569 5552568 bytes. 91 images. 45.7253 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 506084 (src_dev;global) 85 (max) 3 nodes
+BYNODE: 666580467 665741734 665370569
+1504888620569 4991195 bytes. 88 images. 44.1932 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 455225 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 668169751 667439328 667074886
+1504888621570 4740624 bytes. 91 images. 43.1319 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 441386 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 669743496 668983585 668697508
+1504888622570 4883957 bytes. 90 images. 44.5556 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 485459 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 671412628 670656070 670239848
+1504888623570 4818453 bytes. 90 images. 43.8222 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 442645 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 672979921 672215168 671931910
+1504888624570 4993017 bytes. 89 images. 44.427 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 546373 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 674782151 673855210 673482655
+1504888625570 5331397 bytes. 90 images. 44.5667 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 516619 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 676518192 675644753 675288468
+1504888626571 5260581 bytes. 90 images. 45.3778 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 545609 (src_dev;global) 69 (max) 3 nodes
+BYNODE: 678314604 677376034 677021356
+1504888627571 5227212 bytes. 90 images. 44.0889 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 479617 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 679956070 679178544 678804592
+1504888628571 5094280 bytes. 90 images. 45.1556 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 538983 (src_dev;global) 71 (max) 3 nodes
+BYNODE: 681745891 680819534 680468061
+1504888629571 5631698 bytes. 90 images. 46.8444 (mean) 50 (median) 60 (95th) 15743 (global-99.9) 607899 (src_dev;global) 83 (max) 3 nodes
+BYNODE: 683719277 682664104 682281803
+1504888630571 5618638 bytes. 90 images. 45.2 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 534936 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 685491278 684568188 684224356
+1504888631572 5326881 bytes. 90 images. 44.7444 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 476454 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 687174329 686407333 686029041
+1504888632572 4693108 bytes. 90 images. 43.7444 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 416649 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 688652215 688006738 687644858
+1504888633572 4214064 bytes. 90 images. 43.0778 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 338744 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 689947116 689447109 689123650
+1504888634572 3993042 bytes. 90 images. 43.9 (mean) 50 (median) 60 (95th) 15743 (global-99.9) 397555 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 691369721 690726192 690415004
+1504888635572 4820942 bytes. 89 images. 45.5056 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 620520 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 693302560 692171694 691857605
+1504888636573 5621898 bytes. 90 images. 44.9778 (mean) 46 (median) 60 (95th) 15743 (global-99.9) 521263 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 695033692 694112755 693807310
+1504888637573 5149025 bytes. 90 images. 44.6 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 453969 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 696648687 695888267 695565828
+1504888638573 4509441 bytes. 89 images. 44.573 (mean) 50 (median) 60 (95th) 15743 (global-99.9) 432613 (src_dev;global) 74 (max) 3 nodes
+BYNODE: 698128750 697377629 697105844
+1504888639573 4685270 bytes. 91 images. 44.9121 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 420709 (src_dev;global) 87 (max) 3 nodes
+BYNODE: 699659354 698992664 698645475
+1504888640575 4721597 bytes. 90 images. 44.0444 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 458372 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 701290838 700534104 700194148
+1504888641575 4981393 bytes. 89 images. 44.427 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 474230 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 702981304 702159914 701859265
+1504888642575 5359303 bytes. 90 images. 45.4444 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 629806 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 704992914 703836423 703530449
+1504888643575 5987543 bytes. 90 images. 45.7 (mean) 46 (median) 60 (95th) 15743 (global-99.9) 540651 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 706837334 705974020 705535975
+1504888644575 5329501 bytes. 90 images. 45.1778 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 549882 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 708652217 707655218 707369395
+1504888645576 5431465 bytes. 89 images. 44.809 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 513647 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 710397822 709538051 709172422
+1504888646576 5278416 bytes. 91 images. 45.4945 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 486021 (src_dev;global) 69 (max) 3 nodes
+BYNODE: 712104149 711354086 710928476
+1504888647576 5002389 bytes. 91 images. 43.8681 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 426581 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 713699316 713016969 712672815
+1504888648576 4354178 bytes. 88 images. 43.5227 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 371896 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 715070854 714502226 714170198
+1504888649577 4253557 bytes. 92 images. 43.3043 (mean) 40 (median) 60 (95th) 15743 (global-99.9) 407586 (src_dev;global) 70 (max) 3 nodes
+BYNODE: 716541374 715896602 715558859
+1504888650577 4396397 bytes. 89 images. 43.0449 (mean) 40 (median) 60 (95th) 15743 (global-99.9) 377860 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 717949482 717416031 717027719
+1504888651577 4315592 bytes. 91 images. 43.022 (mean) 40 (median) 60 (95th) 15743 (global-99.9) 383172 (src_dev;global) 63 (max) 3 nodes
+BYNODE: 719410355 718813947 718484522
+1504888652578 4222719 bytes. 90 images. 43.3222 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 352665 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 720773173 720240488 719917882
+1504888653578 4008975 bytes. 89 images. 42.7191 (mean) 40 (median) 60 (95th) 15743 (global-99.9) 354100 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 722100443 721603784 721236291
+1504888654578 4361300 bytes. 91 images. 43.1648 (mean) 40 (median) 60 (95th) 15743 (global-99.9) 444007 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 723691457 722989257 722621104
+1504888655578 5217025 bytes. 89 images. 45.236 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 610676 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 725664596 724648352 724205895
+1504888656579 5598593 bytes. 89 images. 44.9663 (mean) 46 (median) 60 (95th) 15743 (global-99.9) 465774 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 727321282 726601340 726194814
+1504888657579 4844744 bytes. 90 images. 44.0556 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 492006 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 728983670 728172241 727806269
+1504888658579 5097357 bytes. 91 images. 44.6703 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 472927 (src_dev;global) 73 (max) 3 nodes
+BYNODE: 730666569 729844137 729548831
+1504888659579 4817442 bytes. 90 images. 44.6333 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 429356 (src_dev;global) 87 (max) 3 nodes
+BYNODE: 732186703 731546243 731144033
+1504888660579 4253954 bytes. 89 images. 43.5056 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 373808 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 733540180 732952500 732638253
+1504888661580 4105798 bytes. 91 images. 43.1538 (mean) 39 (median) 60 (95th) 15743 (global-99.9) 369156 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 734891699 734351418 733993614
+1504888662580 4562805 bytes. 89 images. 44.0674 (mean) 40 (median) 60 (95th) 15743 (global-99.9) 543316 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 736674002 735739327 735386207
+1504888663580 5499917 bytes. 90 images. 45.1 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 591643 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 738574370 737551097 737173986
+1504888664580 5909085 bytes. 90 images. 46.1333 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 628283 (src_dev;global) 62 (max) 3 nodes
+BYNODE: 740595456 739502354 739110728
+1504888665580 5871204 bytes. 90 images. 45.2889 (mean) 46 (median) 60 (95th) 15743 (global-99.9) 516091 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 742384063 741551814 741143865
+1504888666581 5042609 bytes. 90 images. 44.3444 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 506096 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 744062391 743200006 742859954
+1504888667581 4905869 bytes. 90 images. 43.4889 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 425798 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 745576500 744901244 744550476
+1504888668581 4298785 bytes. 90 images. 43.7333 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 330818 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 746860598 746414734 746051673
+1504888669581 3691095 bytes. 91 images. 42.7033 (mean) 39 (median) 60 (95th) 15743 (global-99.9) 275404 (src_dev;global) 68 (max) 3 nodes
+BYNODE: 748012192 747668271 747337637
+1504888670582 3585957 bytes. 89 images. 42.236 (mean) 38 (median) 60 (95th) 15743 (global-99.9) 382112 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 749378497 748766317 748459243
+1504888671582 4330315 bytes. 90 images. 43.4222 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 434835 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 750897296 750180453 749856623
+1504888672583 4958923 bytes. 90 images. 44.5556 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 577882 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 752754989 751748559 751389747
+1504888673583 5506387 bytes. 90 images. 44.8556 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 497202 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 754466275 753661042 753272365
+1504888674583 5025739 bytes. 90 images. 44.0333 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 510582 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 756165854 755312067 754947500
+1504888675583 5075845 bytes. 89 images. 44.809 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 477284 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 757804642 757040260 756656364
+1504888676584 5189259 bytes. 90 images. 44.3778 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 535848 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 759627936 758703997 758358592
+1504888677584 5872723 bytes. 91 images. 45.7253 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 580622 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 761631415 760695889 760235944
+1504888678584 5877526 bytes. 91 images. 45.5714 (mean) 46 (median) 60 (95th) 15743 (global-99.9) 564721 (src_dev;global) 71 (max) 3 nodes
+BYNODE: 763567172 762665823 762207779
+1504888679584 5462065 bytes. 90 images. 45.4444 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 530333 (src_dev;global) 85 (max) 3 nodes
+BYNODE: 765340451 764499987 764062401
+1504888680584 5135837 bytes. 90 images. 44.3556 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 452144 (src_dev;global) 62 (max) 3 nodes
+BYNODE: 766936777 766263288 765838611
+1504888681585 4599630 bytes. 88 images. 43.7614 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 432335 (src_dev;global) 64 (max) 3 nodes
+BYNODE: 768459896 767755546 767422864
+1504888682585 4946791 bytes. 91 images. 43.7363 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 466529 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 770142720 769429516 769012861
+1504888683585 4809537 bytes. 90 images. 43.1222 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 427260 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 771694881 771039128 770660625
+1504888684585 4969317 bytes. 89 images. 44.236 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 525673 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 773501018 772613635 772249298
+1504888685585 5339865 bytes. 90 images. 44.2667 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 495852 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 775239302 774407634 774056880
+1504888686585 5176559 bytes. 89 images. 44.3258 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 536943 (src_dev;global) 62 (max) 3 nodes
+BYNODE: 777011890 776147208 775721277
+1504888687586 5244785 bytes. 90 images. 44.2667 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 474895 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 778669625 777934141 777521394
+1504888688586 5078007 bytes. 90 images. 44.7111 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 526975 (src_dev;global) 70 (max) 3 nodes
+BYNODE: 780440174 779588753 779174240
+1504888689586 5613866 bytes. 90 images. 46.4667 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 608093 (src_dev;global) 84 (max) 3 nodes
+BYNODE: 782426475 781417505 780973053
+1504888690586 5707265 bytes. 91 images. 45.1099 (mean) 46 (median) 60 (95th) 15743 (global-99.9) 503367 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 784190835 783341294 782992169
+1504888691587 5262380 bytes. 89 images. 44.3258 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 489926 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 785903229 785169492 784713957
+1504888692587 4800709 bytes. 91 images. 43.5714 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 401542 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 787392348 786774353 786420686
+1504888693587 4183493 bytes. 89 images. 42.7303 (mean) 40 (median) 60 (95th) 15743 (global-99.9) 345005 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 788692369 788229930 787848581
+1504888694587 4021215 bytes. 91 images. 42.6593 (mean) 39 (median) 60 (95th) 15743 (global-99.9) 391394 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 790098582 789550152 789143361
+1504888695587 4898172 bytes. 91 images. 44.5385 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 573975 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 792002636 791059570 790628061
+1504888696587 5570844 bytes. 89 images. 45.3146 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 511351 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 793756286 792989688 792515137
+1504888697588 5012490 bytes. 88 images. 44.3636 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 432228 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 795308578 794712227 794252796
+1504888698588 4682536 bytes. 91 images. 44.2527 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 422220 (src_dev;global) 74 (max) 3 nodes
+BYNODE: 796866735 796250024 795839378
+1504888699588 4622381 bytes. 90 images. 44.0556 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 411457 (src_dev;global) 87 (max) 3 nodes
+BYNODE: 798383506 797816624 797378388
+1504888700589 4711957 bytes. 90 images. 43.8556 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 448435 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 800011864 799358064 798920547
+1504888701590 4990408 bytes. 90 images. 44 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 451919 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 801670815 801042704 800567364
+1504888702590 5299559 bytes. 89 images. 45.0112 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 606892 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 803682904 802660383 802237155
+1504888703590 5985953 bytes. 90 images. 45.2333 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 534075 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 805563177 804730108 804273110
+1504888704590 5401769 bytes. 91 images. 44.956 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 501395 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 807339162 806479178 806149824
+1504888705590 5433247 bytes. 89 images. 44.573 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 485877 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 809107770 808362011 807931630
+1504888706591 5225502 bytes. 90 images. 44.7333 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 468779 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 810820709 810124378 809681826
+1504888707591 5028643 bytes. 91 images. 43.2747 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 408194 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 812425900 811789910 811439746
+1504888708591 4475013 bytes. 90 images. 43.5111 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 349489 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 813807088 813372428 812951053
+1504888709591 4085428 bytes. 89 images. 43.0225 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 393523 (src_dev;global) 70 (max) 3 nodes
+BYNODE: 815255743 814658351 814301903
+1504888710592 4544756 bytes. 92 images. 43.4783 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 333842 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 816669083 816239991 815851679
+1504888711592 4165359 bytes. 88 images. 42.9091 (mean) 40 (median) 60 (95th) 15743 (global-99.9) 386789 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 818142474 817583081 817200557
+1504888712592 4302703 bytes. 91 images. 43.1099 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 348084 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 819508374 819064448 818655993
+1504888713592 4050852 bytes. 90 images. 42.7222 (mean) 40 (median) 60 (95th) 15743 (global-99.9) 334944 (src_dev;global) 63 (max) 3 nodes
+BYNODE: 820836181 820427744 820015742
+1504888714592 4224861 bytes. 89 images. 43.1348 (mean) 40 (median) 60 (95th) 15743 (global-99.9) 429447 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 822396738 821753499 821354291
+1504888715592 5224509 bytes. 90 images. 45.2333 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 545909 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 824290863 823472312 822965862
+1504888716593 5833885 bytes. 92 images. 45.1304 (mean) 46 (median) 60 (95th) 15743 (global-99.9) 417015 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 826039841 825504307 825018774
+1504888717593 4756549 bytes. 89 images. 43.8202 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 455997 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 827690982 827050203 826578286
+1504888718593 5111343 bytes. 91 images. 44.8791 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 440349 (src_dev;global) 73 (max) 3 nodes
+BYNODE: 829388841 828720496 828321477
+1504888719593 4765323 bytes. 89 images. 44.2022 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 405830 (src_dev;global) 86 (max) 3 nodes
+BYNODE: 830909392 830370203 829916542
+1504888720593 4332778 bytes. 90 images. 43.4889 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 318640 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 832242071 831824631 831462213
+1504888721594 3986249 bytes. 89 images. 43.2247 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 321732 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 833563920 833175378 832775866
+1504888722594 4599164 bytes. 90 images. 44.3222 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 475064 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 835317502 834637063 834159763
+1504888723594 5488563 bytes. 90 images. 45.4222 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 529412 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 837225600 836437624 835939667
+1504888724594 5866651 bytes. 90 images. 46.1222 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 560465 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 839218701 838395164 837855677
+1504888725594 5941283 bytes. 90 images. 45.8 (mean) 46 (median) 60 (95th) 15743 (global-99.9) 474882 (src_dev;global) 64 (max) 3 nodes
+BYNODE: 841064531 840444097 839902197
+1504888726595 5083958 bytes. 91 images. 43.6374 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 469745 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 842779145 842077006 841638632
+1504888727595 4841005 bytes. 89 images. 43.6629 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 375550 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 844240927 843773803 843321058
+1504888728595 4354543 bytes. 90 images. 43.1222 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 323609 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 845622087 845238694 844829550
+1504888729595 3687264 bytes. 91 images. 43.2527 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 264184 (src_dev;global) 67 (max) 3 nodes
+BYNODE: 846764973 846492231 846120391
+1504888730596 3584170 bytes. 90 images. 42.7333 (mean) 39 (median) 60 (95th) 15743 (global-99.9) 349939 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 848093810 847630343 847237612
+1504888731597 4282425 bytes. 89 images. 44.0449 (mean) 40 (median) 60 (95th) 15743 (global-99.9) 375958 (src_dev;global) 76 (max) 3 nodes
+BYNODE: 849554358 849055266 848634566
+1504888732597 4935516 bytes. 90 images. 44.0222 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 509039 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 851394683 850624671 850160352
+1504888733597 5538502 bytes. 90 images. 44.9333 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 459680 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 853147994 852547341 852022873
+1504888734597 5026783 bytes. 90 images. 43.8222 (mean) 41 (median) 60 (95th) 15743 (global-99.9) 462717 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 854840270 854193952 853710769
+1504888735597 5101929 bytes. 90 images. 44.0889 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 444929 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 856508159 855919233 855419528
+1504888736598 5194666 bytes. 90 images. 44.2778 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 486922 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 858312824 857600582 857128180
+1504888737598 5805091 bytes. 90 images. 45.8444 (mean) 44 (median) 60 (95th) 15743 (global-99.9) 552280 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 860334718 859519849 858992110
+1504888738598 5852592 bytes. 90 images. 46.1444 (mean) 46 (median) 60 (95th) 15743 (global-99.9) 520045 (src_dev;global) 70 (max) 3 nodes
+BYNODE: 862238198 861489783 860971288
+1504888739598 5478358 bytes. 90 images. 45.3333 (mean) 41 (median) 64 (95th) 15743 (global-99.9) 485684 (src_dev;global) 85 (max) 3 nodes
+BYNODE: 864018705 863323947 862834975
+1504888740598 5090945 bytes. 89 images. 43.7978 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 434456 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 865622756 865087248 864558568
+1504888741599 4682878 bytes. 90 images. 43.4222 (mean) 42 (median) 60 (95th) 15743 (global-99.9) 418360 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 867172093 866631505 866147852
+1504888742599 4629696 bytes. 89 images. 45.5506 (mean) 41 (median) 74 (95th) 15743 (global-99.9) 546940 (src_dev;global) 88 (max) 3 nodes
+BYNODE: 868863827 868193216 867524103
+1504888743599 4560541 bytes. 92 images. 41.0761 (mean) 38 (median) 60 (95th) 15743 (global-99.9) 645641 (src_dev;global) 106 (max) 3 nodes
+BYNODE: 870419418 869863088 868859181
+1504888744599 4947799 bytes. 89 images. 40.0787 (mean) 39 (median) 60 (95th) 15743 (global-99.9) 753194 (src_dev;global) 61 (max) 3 nodes
+BYNODE: 872207650 871503130 870378706
+1504888745599 5349927 bytes. 90 images. 41.0333 (mean) 38 (median) 60 (95th) 15743 (global-99.9) 735966 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 873965804 873292673 872180936
+1504888746600 5214055 bytes. 90 images. 38.9222 (mean) 33 (median) 60 (95th) 15743 (global-99.9) 739638 (src_dev;global) 60 (max) 3 nodes
+BYNODE: 875712537 875023954 873916977
