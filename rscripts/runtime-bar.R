@@ -1,76 +1,64 @@
 #!/usr/bin/env Rscript
 
-library(cowplot)
-library(reshape2)
-library(ggsci)
+source('prelude.R')
+theme_set(theme_bw(base_size = 20))
 
-# data <- read.csv("runtime/darknet.runtime.csv")
-data <- read.csv("runtime/mot.runtime.csv")
+f <- path("runtime/darknet.runtime.csv")
+data <- read.csv(f)
 
-## Start preparing each ellipse
-latency <- data[data$time > 205 & data$time < 435,
-                c("time", "ads.latency", "jet.latency")]
+variable <- c("Time", "JetStream++", "JetStream")
+levels <- c("AwStream", "JetStream++", "JetStream")
 
-variable <- c("AwStream", "JetStream++")
+latency.columns <- c("time", "js.latency", "jet.latency")
+accuracy.columns <- c("time", "js.accuracy", "jet.accuracy")
 
-l <- c(mean(latency$ads.latency), mean(latency$jet.latency))
-df1 <- data.frame(variable, l)
-df1$label <- "mean"
+################################
+##
+## Draw Latency
+##
+################################
+latency <- data[data$time > 205 & data$time < 435, latency.columns]
+names(latency) <- variable
+latency.data <- melt(latency, id="Time")
 
-l <- c(quantile(latency$ads.latency, c(0.99))[[1]],
-             quantile(latency$jet.latency, c(0.99))[[1]])
-df2 <- data.frame(variable, l)
-df2$label <- "p99"
+latency.plot <- ggplot(latency.data, aes(x=value, colour=variable)) +
+    stat_ecdf(size=1) +
+    scale_x_log10() +
+    xlab("Latency (ms)") +
+    ylab("CDF") +
+    theme(legend.position="top") +
+    scale_color_jco()
+latency.plot
 
-latency.combined <- rbind(df1, df2)
+################################
+##
+## Draw Accuracy
+##
+################################
+accuracy <- data[data$time > 205 & data$time < 435, accuracy.columns]
+names(accuracy) <- variable
+accuracy.data <- melt(accuracy, id="Time")
 
-latency.plot <- ggplot(latency.combined, aes(x=variable, y=l, fill=label)) +
-    geom_bar(width = 0.7, position=position_dodge(.7), stat="identity") +
-    geom_text(aes(label=sprintf("%0.0f", round(l, digits = 2))),
-              vjust=-.2, size=4, position=position_dodge(.7)) +
-    ylab("Latency\n(ms)") +
-    scale_y_continuous(expand = c(0, 0), limits = c(0, 1500)) +
-    xlab("") +
-    academic_paper_theme() +
+accuracy.plot <- ggplot(accuracy.data, aes(x=value, colour=variable)) +
+    stat_ecdf(size=1) +
+    xlab("Latency (ms)") +
+    ylab("CDF") +
     theme(legend.position="none") +
-    scale_fill_jco()
+    scale_color_jco()
 
-accuracy <- data[data$time > 205 & data$time < 435,
-                 c("time", "ads.accuracy", "jet.accuracy")]
-l <- c(mean(accuracy$ads.accuracy), mean(accuracy$jet.accuracy))
-df1 <- data.frame(variable, l)
-df1$label <- "mean"
+################################
+##
+## Combine final plot
+##
+################################
+legend <- get_legend(latency.plot)
+figure <- plot_grid(latency.plot + theme(legend.position="none"),
+                   NULL,
+                   accuracy.plot + theme(legend.position="none"),
+                   align = 'vh',
+                   hjust = -1,
+                   nrow = 1,
+                   rel_widths = c(1, .1, 1)
+                   )
 
-l <- c(quantile(accuracy$ads.accuracy, c(0.01))[[1]],
-             quantile(accuracy$jet.accuracy, c(0.01))[[1]])
-df2 <- data.frame(variable, l)
-df2$label <- "p99"
-
-accuracy.combined <- rbind(df1, df2)
-
-accuracy.plot <- ggplot(accuracy.combined, aes(x=variable, y=l, fill=label)) +
-    geom_bar(width = 0.7, position=position_dodge(.7), stat="identity") +
-    geom_text(aes(label=sprintf("%0.2f", round(l, digits = 2))),
-              vjust=-.2, size=4, position=position_dodge(.7)) +
-    ylab("Accuracy\n(F1 Score)") +
-    scale_y_continuous(expand = c(0, 0), limits = c(0, 1.1)) +
-    xlab("") +
-    academic_paper_theme() +
-    theme(legend.position="none") +
-    scale_fill_jco()
-
-## Combine for the final plot
-pcol <- plot_grid(latency.plot + theme(legend.position="none"),
-                  accuracy.plot + theme(legend.position="none"),
-                  align = 'vh', ncol = 2, scale = 0.9)
-pcol
-
-legend <- get_legend(latency.plot + theme(legend.position="top",
-                                          legend.title = element_blank()))
-
-p <- plot_grid(legend, pcol, ncol = 1, rel_heights = c(.12, 1))
-p
-
-pdf("mot-runtime-bar.pdf", width=7, height=2.5)
-p
-dev.off()
+plot_grid(legend, figure, ncol=1, rel_heights = c(0.2, 1))
