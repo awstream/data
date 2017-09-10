@@ -3,14 +3,14 @@
 source('prelude.R')
 theme_set(theme_bw(base_size = 20))
 
-f <- path("runtime/darknet.runtime.csv")
+f <- path("runtime/mot.runtime.csv")
 data <- read.csv(f)
 
 variable <- c("Time", "JetStream++", "JetStream")
 levels <- c("AwStream", "JetStream++", "JetStream")
 
-latency.columns <- c("time", "js.latency", "jet.latency")
-accuracy.columns <- c("time", "js.accuracy", "jet.accuracy")
+latency.columns <- c("time", "jet.latency", "js.latency")
+accuracy.columns <- c("time", "jet.accuracy", "js.accuracy")
 
 ################################
 ##
