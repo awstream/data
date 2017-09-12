@@ -1,9 +1,8 @@
 #!/usr/bin/env Rscript
 
 source('prelude.R')
-theme_set(theme_bw(base_size = 20))
 
-f <- path("runtime/mot.runtime.csv")
+f <- path("runtime/darknet.runtime.csv")
 data <- read.csv(f)
 
 variable <- c("Time", "JetStream++", "JetStream")
@@ -27,9 +26,12 @@ latency.plot <- ggplot(latency.data, aes(x=value, colour=variable)) +
     xlab("Latency (ms)") +
     ylab("CDF") +
     theme(legend.position="top") +
-    scale_color_jco()
+    scale_color_jco() +
+    theme_bw(base_size = 20) +
+    theme(panel.border = element_rect(colour = "black", fill = NA, size = 1))
 latency.plot
 
+x
 ################################
 ##
 ## Draw Accuracy
@@ -41,10 +43,11 @@ accuracy.data <- melt(accuracy, id="Time")
 
 accuracy.plot <- ggplot(accuracy.data, aes(x=value, colour=variable)) +
     stat_ecdf(size=1) +
-    xlab("Latency (ms)") +
+    xlab("Accuracy (F1)") +
     ylab("CDF") +
     theme(legend.position="none") +
     scale_color_jco()
+accuracy.plot
 
 ################################
 ##
@@ -53,12 +56,12 @@ accuracy.plot <- ggplot(accuracy.data, aes(x=value, colour=variable)) +
 ################################
 legend <- get_legend(latency.plot)
 figure <- plot_grid(latency.plot + theme(legend.position="none"),
-                   NULL,
-                   accuracy.plot + theme(legend.position="none"),
-                   align = 'vh',
-                   hjust = -1,
-                   nrow = 1,
-                   rel_widths = c(1, .1, 1)
-                   )
+                    NULL,
+                    accuracy.plot + theme(legend.position="none"),
+                    align = 'vh',
+                    hjust = -1,
+                    nrow = 1,
+                    rel_widths = c(1, .1, 1)
+                    )
 
 plot_grid(legend, figure, ncol=1, rel_heights = c(0.2, 1))
