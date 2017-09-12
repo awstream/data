@@ -1,5 +1,3 @@
-    Finished release [optimized] target(s) in 0.0 secs
-     Running `target/release/server`
 2017-09-11 21:13:26.441 client 13.58.116.243:35616	goodput 12086.536 kbps	throughput 12086.936 kbps	latency 65.966 ms	accuracy 0.9725
 2017-09-11 21:13:26.457 client 52.23.155.130:36488	goodput 12086.536 kbps	throughput 12086.936 kbps	latency 87.034 ms	accuracy 0.9725
 2017-09-11 21:13:27.321 client 52.32.115.31:52198	goodput 12086.536 kbps	throughput 12086.936 kbps	latency 32.034 ms	accuracy 0.9725

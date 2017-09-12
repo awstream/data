@@ -1,9 +1,3 @@
-    Updating registry `https://github.com/rust-lang/crates.io-index`
- Downloading futures-cpupool v0.1.5
-   Compiling futures-cpupool v0.1.5
-   Compiling awstream v0.1.0 (file:///home/ubuntu/AWStream/runtime)
-    Finished release [optimized] target(s) in 24.76 secs
-     Running `target/release/server`
 2017-09-11 21:31:43.977 client 52.32.115.31:52202	goodput 11817.416 kbps	throughput 11817.816 kbps	latency 70.889 ms	accuracy 0.9242
 2017-09-11 21:31:44.045 client 13.58.116.243:35620	goodput 11817.416 kbps	throughput 11817.816 kbps	latency 116.889 ms	accuracy 0.9242
 2017-09-11 21:31:44.426 client 52.23.155.130:36492	goodput 11817.416 kbps	throughput 11817.816 kbps	latency 173.889 ms	accuracy 0.9242

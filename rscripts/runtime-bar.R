@@ -2,50 +2,62 @@
 
 source('prelude.R')
 
-f <- path("runtime/darknet.runtime.csv")
+f <- path("darknet.runtime.csv")
 data <- read.csv(f)
 
-variable <- c("Time", "JetStream++", "JetStream")
-levels <- c("AwStream", "JetStream++", "JetStream")
+variable <- c("Time", "JetStream++", "JetStream", "Streaming over TCP",
+              "AWStream")
 
-latency.columns <- c("time", "jet.latency", "js.latency")
-accuracy.columns <- c("time", "jet.accuracy", "js.accuracy")
+levels <- c("AWStream", "JetStream++", "JetStream", "Streaming over TCP")
+
+latency.columns <- c("time", "jet.latency", "js.latency",
+                     "tcp.latency", "aws.latency")
+accuracy.columns <- c("time", "jet.accuracy", "js.accuracy",
+                      "tcp.accuracy", "aws.accuracy")
+throughput.columns <- c("time", "jet.throughput", "js.throughput",
+                        "tcp.throughput", "aws.throughput")
+
+throughput <- data[data$time > 205 & data$time < 435, throughput.columns]
 
 ################################
 ##
 ## Draw Latency
 ##
 ################################
-latency <- data[data$time > 205 & data$time < 435, latency.columns]
+latency <- data[data$time > 205 & data$time < 380, latency.columns]
 names(latency) <- variable
 latency.data <- melt(latency, id="Time")
+latency.data$variable <- factor(latency.data$variable, levels=levels)
 
-latency.plot <- ggplot(latency.data, aes(x=value, colour=variable)) +
+latency.plot <- ggplot(latency.data,
+                       aes(x=value, colour=variable, linetype=variable)) +
     stat_ecdf(size=1) +
-    scale_x_log10() +
+    scale_x_log10(breaks=c(10, 100, 1000, 10000),
+                  labels=c(10, 100, 1000, 10000)) +
     xlab("Latency (ms)") +
     ylab("CDF") +
-    theme(legend.position="top") +
-    scale_color_jco() +
-    theme_bw(base_size = 20) +
-    theme(panel.border = element_rect(colour = "black", fill = NA, size = 1))
+    theme(legend.title=element_blank(),
+          legend.spacing.x = unit(3, "lines"),
+          legend.key.width=unit(3,"line")) +
+    scale_color_jco()
 latency.plot
 
-x
 ################################
 ##
 ## Draw Accuracy
 ##
 ################################
-accuracy <- data[data$time > 205 & data$time < 435, accuracy.columns]
+accuracy <- data[data$time > 205 & data$time < 380, accuracy.columns]
 names(accuracy) <- variable
 accuracy.data <- melt(accuracy, id="Time")
+accuracy.data$variable <- factor(accuracy.data$variable, levels=levels)
 
-accuracy.plot <- ggplot(accuracy.data, aes(x=value, colour=variable)) +
+accuracy.plot <- ggplot(accuracy.data,
+                        aes(x=value, colour=variable, linetype=variable)) +
     stat_ecdf(size=1) +
     xlab("Accuracy (F1)") +
+    xlim(0.5, 1) +
     ylab("CDF") +
-    theme(legend.position="none") +
     scale_color_jco()
 accuracy.plot
 
@@ -64,4 +76,7 @@ figure <- plot_grid(latency.plot + theme(legend.position="none"),
                     rel_widths = c(1, .1, 1)
                     )
 
-plot_grid(legend, figure, ncol=1, rel_heights = c(0.2, 1))
+p <- plot_grid(legend, figure, ncol=1, rel_heights = c(0.2, 1))
+p
+
+ggsave("darknet.runtime.pdf", p, width = 8, height = 4)
