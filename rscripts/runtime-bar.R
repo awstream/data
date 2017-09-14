@@ -2,20 +2,19 @@
 
 source('prelude.R')
 
-f <- path("darknet.runtime.csv")
+f <- path("mot.runtime.csv")
 data <- read.csv(f)
 
 variable <- c("Time", "JetStream++", "JetStream", "Streaming w/ TCP",
               "AWStream")
-levels <- c("AWStream", "JetStream++", "JetStream", "Streaming w/ TCP")
+levels <- c("AWStream", "JetStream++", "JetStream",
+            "Streaming w/ TCP")
 levels <- factor(levels, levels=levels)
 
 latency.columns <- c("time", "jet.latency", "js.latency",
                      "tcp.latency", "aws.latency")
 accuracy.columns <- c("time", "jet.accuracy", "js.accuracy",
                       "tcp.accuracy", "aws.accuracy")
-throughput.columns <- c("time", "jet.throughput", "js.throughput",
-                        "tcp.throughput", "aws.throughput")
 
 ##################################
 ##
@@ -77,9 +76,9 @@ g1 <- ggplotGrob(plot)
 g2 <- ggplotGrob(plot2)
 g1[["grobs"]][[7]] <- g2[["grobs"]][[6]]
 
-pdf("runtime_darknet-bar.pdf", width=8, height=4)
+library(grid)
+pdf("runtime_mot-bar.pdf", width=8, height=4)
 grid.draw(g1)
 dev.off()
-
 
 

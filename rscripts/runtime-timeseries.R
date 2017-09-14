@@ -1,15 +1,17 @@
 #!/usr/bin/env Rscript
 
 source('prelude.R')
+library(zoo)
 
 f <- path("darknet.runtime.csv")
 runtime.data <- read.csv(f)
 
 legends <- c("time",
              "AwStream",
-             "JetStream",
              "JetStream++",
-             "Streaming over TCP")
+             "JetStream",
+             "Streaming over TCP",
+             "Streaming over UDP")
 
 ## Create a test plot with proper size
 dev.new(width=7, height=2.3)
@@ -19,32 +21,34 @@ dev.new(width=7, height=2.3)
 ##
 bw <- runtime.data[,c("time",
                       "aws.throughput",
-                      "js.throughput",
                       "jet.throughput",
-                      "tcp.throughput")]
+                      "js.throughput",
+                      "tcp.throughput",
+                      "udp.throughput")]
 names(bw) <- legends
-
 average.bw <- as.data.frame(rollapply(bw, 5, mean, by=5))
-average.bw <- melt(average.bw, id.vars="time")
+bw.data <- melt(average.bw, id.vars="time")
 
-bw.plot <- ggplot(average.bw, aes(x=time, y=value, colour=variable, shape=variable)) +
-    geom_point(size=1.1) +
+bw.plot <- ggplot(bw.data, aes(x=time, y=value, colour=variable, shape=variable)) +
+    geom_point(size=2) +
     geom_line(linetype=2, size=1) +
     xlab("") +
     ylab("Throughput\n(mbps)") +
     xlim(30, 650) +
     scale_y_continuous(limits = c(0, 25), labels=function(x) format(x, nsmall=1)) +
     theme(legend.title=element_blank(),
-          legend.spacing.x=unit(3, "lines"),
-          legend.key.width=unit(3, "line")) +
+          legend.spacing.x=unit(4, "lines"),
+          legend.key.width=unit(4, "line")) +
+    guides(colour=guide_legend(nrow=2, byrow=TRUE)) +
     scale_color_jco()
 bw.plot
 
+x
 ##
 ## latency plot
 ##
 latency <- runtime.data[,c("time", "aws.latency", "js.latency", "jet.latency",
-                           "tcp.latency")]
+                           "tcp.latency", "udp.latency")]
 names(latency) <- legends
 latency <- as.data.frame(rollapply(latency, 5, mean, by=5))
 latency <- melt(latency, id.vars="time")
@@ -54,7 +58,7 @@ latency_label <- function(x) if (x < 100) { format(x, nsmall=1) } else { "100" }
 
 latency.plot <- ggplot(latency,
                        aes(x=time, y=value, colour=variable, shape=variable)) +
-    geom_point() +
+    geom_point(size=2) +
     geom_line(linetype=2, size=1) +
     scale_y_log10(breaks=c(0.1, 1, 10, 100), labels=Vectorize(latency_label)) +
     xlab("") +
@@ -69,20 +73,19 @@ latency.plot
 ##
 ## accuracy plot
 ##
-accuracy <- runtime.data[,c("time", "aws.accuracy", "js.accuracy",
-                            "jet.accuracy", "tcp.accuracy")]
-names(accuracy) <- legends
+accuracy <- runtime.data[,c("time", "aws.accuracy", "jet.accuracy",
+                            "js.accuracy", "tcp.accuracy", "udp.accuracy")]
 accuracy <- as.data.frame(rollapply(accuracy, 5, mean, by=5))
 accuracy <- melt(accuracy, id.vars="time")
 
 accuracy.plot <- ggplot(accuracy, aes(x=time, y=value,
                                       colour=variable, shape=variable)) +
-    geom_point() +
+    geom_point(size=2) +
     geom_line(linetype=2, size=1) +
     xlab("Time (seconds)") +
     ylab("Accuracy\n(F1 Score)") +
     xlim(30, 650) +
-    scale_y_continuous(limits = c(0.4, 1.0),
+    scale_y_continuous(limits = c(0, 1.0),
                        labels=function(x) format(x, nsmall=1)) +
     theme(legend.position="none") +
     scale_color_jco()
@@ -105,9 +108,9 @@ legend <- get_legend(bw.plot +
 ##                   guides(colour=guide_legend(nrow=2,byrow=TRUE))
 
 
-p <- plot_grid(legend, pcol, ncol = 1, rel_heights = c(.14, 1))
+p <- plot_grid(legend, pcol, ncol = 1, rel_heights = c(.2, 1))
 p
 
-pdf("runtime-darknet-verticle.pdf", width=8, height=8)
+pdf("runtime_darknet-timeseries.pdf", width=8, height=8)
 p
 dev.off()
