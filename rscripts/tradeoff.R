@@ -51,29 +51,28 @@ p <- ggplot() +
     geom_point(data=center, aes(x=x, y=y),
                size=4, shape=21, colour="black", fill="white", stroke=1) +
     scale_x_reverse(breaks=c(5, 4, 3, 2, 1), labels=c(100, 10, 1, 0.1, 0.01)) +
-    scale_y_continuous(breaks=c(0.0, 0.2, 0.4, 0.6, 0.8, 1.0), limits=c(-0.1, 1.1)) +
+    scale_y_continuous(breaks=c(0.0, 0.5, 1.0),
+                       limits=c(-0.05, 1.05)) +
     xlab("Freshness, latency reversed (seconds)") +
     ylab("Fidelity, accuracy (%)") +
-    annotate(geom = "text", x = udp.center[1] + 0.3, y = udp.center[2] + 0.2,
-             label = "Streaming", size = 5) +
-    annotate(geom = "text", x = udp.center[1] + 0.3, y = udp.center[2] + 0.1,
-             label = "over UDP", size = 5) +
-    annotate(geom = "text", x = tcp.center[1] + 0.2, y = tcp.center[2] - 0.1,
-             label = "Streaming", size = 5) +
-    annotate(geom = "text", x = tcp.center[1] + 0.22, y = tcp.center[2] - 0.2,
-             label = "over TCP", size = 5) +
-    annotate(geom = "text", x = aws.center[1] - 0.2, y = aws.center[2] + 0.1,
-             label = "AWStream", size = 5) +
-    annotate(geom = "text", x = js.center[1] - 0.2, y = js.center[2] - 0.12,
-             label = "Manual", size = 5) +
+    annotate(geom = "text", x = udp.center[1] + 0.3, y = udp.center[2] + 0.25,
+             label = "Streaming", size = 6) +
+    annotate(geom = "text", x = udp.center[1] + 0.3, y = udp.center[2] + 0.12,
+             label = "over UDP", size = 6) +
+    annotate(geom = "text", x = tcp.center[1], y = tcp.center[2] - 0.1,
+             label = "Streaming", size = 6) +
+    annotate(geom = "text", x = tcp.center[1], y = tcp.center[2] - 0.23,
+             label = "over TCP", size = 6) +
+    annotate(geom = "text", x = aws.center[1], y = aws.center[2] - 0.12,
+             label = "AWStream", size = 6) +
+    annotate(geom = "text", x = js.center[1], y = js.center[2] - 0.12,
+             label = "Manual", size = 6) +
     geom_segment(
         aes(x = 5.2, y = 0.07, xend = 4.5, yend = 0.28),
-        arrow = arrow(length = unit(0.05, "npc"))
+        arrow = arrow(length = unit(0.07, "npc"))
     ) +
     annotate(geom = "text", x = 4.95, y = 0.25, label = "Better", size = 6,
              angle = 30) +
     scale_fill_lancet() +
     theme(legend.position="none")
-p
-
 ggsave("figure1.pdf", p, width=5.6, height=3.3)
