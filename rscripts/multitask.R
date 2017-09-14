@@ -7,13 +7,13 @@ names <- c("client", "time", "bw", "latency", "acc")
 create_plot <- function(prefix) {
     ## prefix <- "multitask/eq-acc-"
     ## prefix <- "multitask/eq-bw-"
-    f1 <- paste(prefix, "darknet.log", sep='')
+    f1 <- path(paste(prefix, "darknet.log", sep=''))
     eq.acc.darknet <- read.csv(f1, header=F)
     names(eq.acc.darknet) <- names
     eq.acc.darknet$client <- NULL
     eq.acc.darknet <- eq.acc.darknet[0:40, ]
 
-    f2 <- paste(prefix, "mot.log", sep='')
+    f2 <- path(paste(prefix, "mot.log", sep=''))
     eq.acc.mot <- read.csv(f2, header=F)
     names(eq.acc.mot) <- names
     eq.acc.mot$client <- NULL
@@ -33,14 +33,13 @@ create_plot <- function(prefix) {
     bw <- melt(bw, id.vars="time")
     bw$value <- bw$value / 1000
     bw.plot <- ggplot(bw, aes(x=time, y=value, colour=variable, shape=variable)) +
-        geom_point() +
-        geom_line(linetype=2) +
-        xlab("") +
+        geom_point(size=2) +
+        geom_line(linetype=2, size=1) +
+        xlab(NULL) +
         ylab("Throughput \n (mbps)") +
         scale_x_continuous(breaks = c(0, 100, 200)) +
         scale_y_continuous(limits = c(0, 15),
                            labels=function(x) format(x, nsmall=1)) +
-        academic_paper_theme() +
         theme(legend.position="none") +
         theme(plot.margin = unit(c(0.1, 0.1, 0, 0.1), "cm")) +
         scale_color_jco()
@@ -54,15 +53,14 @@ create_plot <- function(prefix) {
     acc <- melt(acc, id.vars="time")
 
     acc.plot <- ggplot(acc, aes(x=time, y=value, colour=variable,
-                                shape=variable, linetype = variable)) +
-        geom_smooth(se=FALSE) +
+                                shape=variable)) +
+        geom_smooth(se=FALSE, linetype=2, size=1) +
         ##    geom_line(linetype=2) +
         xlab("Time (seconds)") +
         ylab("Accuracy \n (F1 Score)") +
         scale_x_continuous(breaks = c(0, 100, 200)) +
         scale_y_continuous(limits = c(0.5, 1),
                            labels=function(x) format(x, nsmall=2)) +
-        academic_paper_theme() +
         theme(legend.position = "none") +
         theme(plot.margin = unit(c(0, 0.1, 0.1, 0.1), "cm")) +
         scale_color_jco()
@@ -82,7 +80,7 @@ pcol <- plot_grid(
     align='vh',
     ncol=1)
 
-pdf("multitask-left.pdf", width=3, height=3)
+pdf("multitask-left.pdf", width=4, height=4)
 pcol
 dev.off()
 
@@ -92,7 +90,7 @@ pcol <- plot_grid(
     align='vh',
     ncol=1)
 
-pdf("multitask-right.pdf", width=3, height=3)
+pdf("multitask-right.pdf", width=4, height=4)
 pcol
 dev.off()
 
@@ -103,11 +101,11 @@ p <- plot_grid(legend, pcol, ncol = 1, rel_heights = c(.18, 1))
 p
 
 
-pdf("multitask-legend.pdf", width=6.5, height=2)
-
-eq.acc.plots[[1]] + theme(legend.position="top",
-                          legend.key = element_rect(size = unit(24, 'lines')),
-                          legend.key.size = unit(4, 'lines'),
-                          legend.title = element_blank())
-
+pdf("multitask-legend.pdf", width=7, height=2)
+legend <- get_legend(eq.acc.plots[[1]] +
+                     theme(legend.position="top",
+                           legend.key = element_rect(size = unit(24, 'lines')),
+                           legend.key.size = unit(4, 'lines'),
+                           legend.title = element_blank()))
+grid.draw(legend)
 dev.off()

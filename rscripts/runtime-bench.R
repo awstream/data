@@ -111,7 +111,7 @@ combined <- rbind(latency.data, accuracy.data)
 plot <- ggplot(combined, aes(x=factor(variable), y=value)) +
     geom_boxplot(outlier.size=.5, outlier.alpha = 0.5) +
     facet_grid(. ~ label, scales="free") +
-    xlab("Added Network Delay (ms)") +
+    xlab("Added Network\nDelay (ms)") +
     ylab("") +
     theme(strip.background=element_blank()) +
     theme(strip.text.x=element_text(size = 20)) +
@@ -119,5 +119,4 @@ plot <- ggplot(combined, aes(x=factor(variable), y=value)) +
     coord_flip()
 plot
 
-ggsave("runtime_darknet-bench.pdf", plot, width=6.5, height=4)
-
+ggsave("runtime_darknet-bench.pdf", plot, width=6.5, height=3)

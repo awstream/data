@@ -77,6 +77,6 @@ g2 <- ggplotGrob(plot2)
 g1[["grobs"]][[7]] <- g2[["grobs"]][[6]]
 
 library(grid)
-pdf("runtime_mot-boxplot.pdf", width=8, height=4)
+pdf("runtime_mot-boxplot.pdf", width=8, height=3)
 grid.draw(g1)
 dev.off()
