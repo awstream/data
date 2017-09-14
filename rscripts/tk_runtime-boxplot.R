@@ -2,19 +2,15 @@
 
 source('prelude.R')
 
-f <- path("mot.runtime.csv")
+f <- path("runtime.topk.csv")
 data <- read.csv(f)
 
-variable <- c("Time", "JetStream++", "JetStream", "Streaming w/ TCP",
-              "AWStream")
-levels <- c("AWStream", "JetStream++", "JetStream",
-            "Streaming w/ TCP")
+variable <- c("Time", "Streaming over TCP", "Streaming over UDP", "AWStream")
+levels <- c("AWStream", "Streaming over TCP", "Streaming over UDP")
 levels <- factor(levels, levels=levels)
 
-latency.columns <- c("time", "jet.latency", "js.latency",
-                     "tcp.latency", "aws.latency")
-accuracy.columns <- c("time", "jet.accuracy", "js.accuracy",
-                      "tcp.accuracy", "aws.accuracy")
+latency.columns <- c("time", "tcp.latency", "udp.latency", "aws.latency")
+accuracy.columns <- c("time", "tcp.accuracy", "udp.accuracy", "aws.accuracy")
 
 ##################################
 ##
@@ -66,9 +62,7 @@ plot2 <- ggplot(combined, aes(x=factor(variable), y=value)) +
     theme(strip.background=element_blank()) +
     theme(strip.text.x=element_text(size = 20)) +
     scale_x_discrete(limits=rev(levels)) +
-    scale_y_continuous(limits=c(0.7, 1.0),
-                       breaks=c(0.7, 0.8, 0.9, 1.0),
-                       labels=c(0.7, 0.8, 0.9, 1.0)) +
+    scale_y_continuous(limits=c(0.0, 1.0)) +
     coord_flip()
 plot2
 
@@ -77,7 +71,7 @@ g2 <- ggplotGrob(plot2)
 g1[["grobs"]][[7]] <- g2[["grobs"]][[6]]
 
 library(grid)
-pdf("runtime_mot-bar.pdf", width=8, height=4)
+pdf("runtime_tk-bar.pdf", width=8, height=4)
 grid.draw(g1)
 dev.off()
 

@@ -3,13 +3,11 @@
 source('prelude.R')
 library(zoo)
 
-f <- path("runtime.mot.csv")
+f <- path("runtime.topk.csv")
 runtime.data <- read.csv(f)
 
 legends <- c("time",
              "AWStream",
-             "JetStream++",
-             "JetStream",
              "Streaming over TCP",
              "Streaming over UDP")
 
@@ -21,13 +19,11 @@ dev.new(width=7, height=2.3)
 ##
 bw <- runtime.data[,c("time",
                       "aws.throughput",
-                      "jet.throughput",
-                      "js.throughput",
                       "tcp.throughput",
                       "udp.throughput")]
 names(bw) <- legends
-average.bw <- as.data.frame(rollapply(bw, 5, mean, by=5))
-bw.data <- melt(average.bw, id.vars="time")
+bw.data <- melt(bw, id.vars="time")
+bw.data$value <- bw.data$value / 1000
 
 bw.plot <- ggplot(bw.data, aes(x=time, y=value, colour=variable, shape=variable)) +
     geom_point(size=2) +
@@ -35,7 +31,7 @@ bw.plot <- ggplot(bw.data, aes(x=time, y=value, colour=variable, shape=variable)
     xlab("") +
     ylab("Throughput\n(mbps)") +
     xlim(30, 650) +
-    scale_y_continuous(limits = c(0, 25), labels=function(x) format(x, nsmall=1)) +
+    scale_y_continuous(limits = c(0, 3), labels=function(x) format(x, nsmall=1)) +
     theme(legend.title=element_blank(),
           legend.spacing.x=unit(4, "lines"),
           legend.key.width=unit(4, "line")) +
@@ -43,18 +39,15 @@ bw.plot <- ggplot(bw.data, aes(x=time, y=value, colour=variable, shape=variable)
     scale_color_jco()
 bw.plot
 
-x
 ##
 ## latency plot
 ##
-latency <- runtime.data[,c("time", "aws.latency", "js.latency", "jet.latency",
-                           "tcp.latency", "udp.latency")]
+latency <- runtime.data[,c("time", "aws.latency", "tcp.latency", "udp.latency")]
 names(latency) <- legends
-latency <- as.data.frame(rollapply(latency, 5, mean, by=5))
 latency <- melt(latency, id.vars="time")
 latency$value <- latency$value / 1000
 
-latency_label <- function(x) if (x < 100) { format(x, nsmall=1) } else { "100" }
+latency_label <- function(x) { format(x, nsmall=1) }
 
 latency.plot <- ggplot(latency,
                        aes(x=time, y=value, colour=variable, shape=variable)) +
@@ -73,9 +66,8 @@ latency.plot
 ##
 ## accuracy plot
 ##
-accuracy <- runtime.data[,c("time", "aws.accuracy", "jet.accuracy",
-                            "js.accuracy", "tcp.accuracy", "udp.accuracy")]
-accuracy <- as.data.frame(rollapply(accuracy, 5, mean, by=5))
+accuracy <- runtime.data[,c("time", "aws.accuracy",
+                            "tcp.accuracy", "udp.accuracy")]
 accuracy <- melt(accuracy, id.vars="time")
 
 accuracy.plot <- ggplot(accuracy, aes(x=time, y=value,
@@ -111,6 +103,6 @@ legend <- get_legend(bw.plot +
 p <- plot_grid(legend, pcol, ncol = 1, rel_heights = c(.2, 1))
 p
 
-pdf("runtime_mot-timeseries.pdf", width=8, height=8)
+pdf("runtime_tk-timeseries.pdf", width=8, height=8)
 p
 dev.off()

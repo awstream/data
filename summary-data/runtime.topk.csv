@@ -1,4 +1,4 @@
-"time","tcp.throughput","tcp.latency","tcp.accuracy","ads.throughput","ads.latency","ads.accuracy","udp.throughput","udp.latency","udp.accuracy"
+"time","tcp.throughput","tcp.latency","tcp.accuracy","aws.throughput","aws.latency","aws.accuracy","udp.throughput","udp.latency","udp.accuracy"
 0,1067.9425,39.5375,NA,434.1675,31.6025,NA,1230.4925,23.8325,NA
 5,1240.6325,42.5875,NA,412.1275,34.475,NA,1365.7975,24.91,NA
 10,1255.3625,42.955,NA,669.2875,35.9625,NA,1320.93,24.9575,NA

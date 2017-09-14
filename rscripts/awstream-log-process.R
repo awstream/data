@@ -47,4 +47,4 @@ repeated.udp <- udp[rep(seq_len(nrow(udp)), each=5),]
 until <- nrow(repeated.udp)
 all <- cbind(all[1:until,], repeated.udp)
 
-write.csv(all, file=path("mot.runtime.csv"), row.names=FALSE)
+write.csv(all, file=path("runtime.mot.csv"), row.names=FALSE)
