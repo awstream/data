@@ -22,5 +22,5 @@ academic_paper_theme <-
     theme(legend.position="top") +
     theme(panel.grid.minor = element_blank()) +
     theme(panel.grid.major = element_blank()) +
-    theme(panel.border = element_rect(size = 2))
+    theme(panel.border = element_rect(size = 1.5))
 theme_set(academic_paper_theme)
