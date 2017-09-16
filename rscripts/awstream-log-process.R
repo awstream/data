@@ -24,27 +24,26 @@ read.log.and.group.by.time <- function(logname) {
     per.second
 }
 
-others <- read.csv(path("runtime/mot.others.csv"))
+others <- read.csv(path("runtime/darknet.others.csv"))
 
 ### Append aws
-aws <- read.log.and.group.by.time("mot.aws.log")
+aws <- read.log.and.group.by.time("darknet.aws.log")
 aws$time <- NULL
 names(aws) <- c("aws.latency", "aws.throughput", "aws.accuracy")
 until <- min(nrow(others), nrow(aws))
 all <- cbind(others[1:until,], aws[1:until,])
 
 ### Append TCP
-tcp <- read.log.and.group.by.time("mot.tcp.log")
+tcp <- read.log.and.group.by.time("darknet.tcp.log")
 tcp$time <- NULL
 names(tcp) <- c("tcp.latency", "tcp.throughput", "tcp.accuracy")
 until <- min(nrow(all), nrow(tcp))
 all <- cbind(all[1:until,], tcp[1:until,])
 
 ### Append UDP
-udp <- read.csv(path("runtime/mot.udp.csv"))
+udp <- read.csv(path("runtime/darknet.udp.csv"))
 udp$time <- NULL
 repeated.udp <- udp[rep(seq_len(nrow(udp)), each=5),]
-until <- nrow(repeated.udp)
-all <- cbind(all[1:until,], repeated.udp)
+all <- cbind(all[1:639,], repeated.udp[1:639,])
 
-write.csv(all, file=path("runtime.mot.csv"), row.names=FALSE)
+write.csv(all, file=path("runtime.darknet.csv"), row.names=FALSE)

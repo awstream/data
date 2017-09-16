@@ -3,7 +3,7 @@
 source('prelude.R')
 library(zoo)
 
-f <- path("runtime.mot.csv")
+f <- path("runtime.darknet.csv")
 runtime.data <- read.csv(f)
 
 legends <- c("time",
@@ -25,6 +25,7 @@ bw <- runtime.data[,c("time",
                       "js.throughput",
                       "tcp.throughput",
                       "udp.throughput")]
+bw$udp.throughput <- bw$udp.throughput / 1000
 names(bw) <- legends
 average.bw <- as.data.frame(rollapply(bw, 5, mean, by=5))
 bw.data <- melt(average.bw, id.vars="time")
@@ -111,6 +112,6 @@ legend <- get_legend(bw.plot +
 p <- plot_grid(legend, pcol, ncol = 1, rel_heights = c(.2, 1))
 p
 
-pdf("runtime_mot-timeseries.pdf", width=8, height=8)
+pdf("runtime_darknet-timeseries.pdf", width=8, height=8)
 p
 dev.off()

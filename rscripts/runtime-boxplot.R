@@ -2,26 +2,28 @@
 
 source('prelude.R')
 
-f <- path("runtime.mot.csv")
+f <- path("runtime.darknet.csv")
 data <- read.csv(f)
 
-variable <- c("Time", "JetStream++", "JetStream", "Streaming over TCP",
+variable <- c("Time", "JetStream++", "JetStream",
+              "Streaming over TCP", "Streaming over UDP",
               "AWStream")
 levels <- c("AWStream", "JetStream++", "JetStream",
-            "Streaming over TCP")
+            "Streaming over TCP", "Streaming over UDP")
 levels <- factor(levels, levels=levels)
 
 latency.columns <- c("time", "jet.latency", "js.latency",
-                     "tcp.latency", "aws.latency")
+                     "tcp.latency", "udp.latency", "aws.latency")
 accuracy.columns <- c("time", "jet.accuracy", "js.accuracy",
-                      "tcp.accuracy", "aws.accuracy")
+                      "tcp.accuracy", "udp.accuracy", "aws.accuracy")
 
 ##################################
 ##
 ## Latency
 ##
 ##################################
-latency <- data[data$time > 205 & data$time < 380, latency.columns]
+latency <- data[data$time > 205 & data$time < 440, latency.columns]
+latency$udp.latency <- jitter(latency$udp.latency, factor=5)
 names(latency) <- variable
 latency.data <- melt(latency, id="Time")
 latency.data$value <- log10(latency.data$value / 1000)
@@ -31,9 +33,11 @@ latency.data$value <- log10(latency.data$value / 1000)
 ## Accuracy
 ##
 ##################################
-accuracy <- data[data$time > 205 & data$time < 380, accuracy.columns]
+accuracy <- data[data$time > 205 & data$time < 440, accuracy.columns]
+accuracy$udp.accuracy <- jitter(accuracy$udp.accuracy, factor=5)
 names(accuracy) <- variable
 accuracy.data <- melt(accuracy, id="Time")
+accuracy.data$value <- accuracy.data$value + 10
 
 ##################################
 ##
@@ -50,33 +54,14 @@ plot <- ggplot(combined, aes(x=factor(variable), y=value)) +
     geom_boxplot(outlier.size=.5, outlier.alpha = 0.5) +
     facet_grid(. ~ label, scales="free") +
     xlab(NULL) +
-    ylab("") +
+    ylab(NULL) +
     theme(strip.background=element_blank()) +
     theme(strip.text.x=element_text(size = 20)) +
     scale_x_discrete(limits=rev(levels)) +
-    scale_y_continuous(breaks=c(-1, 0, 1), labels=c(100, 1000, 10000)) +
+    scale_y_continuous(breaks=c(-1, 0, 1, 10.0, 10.2, 10.4, 10.6, 10.8, 11),
+                       labels=c(100, 1000, 10000, 0.0, 0.2, 0.4, 0.6, 0.8, 1)) +
     coord_flip()
 plot
 
-plot2 <- ggplot(combined, aes(x=factor(variable), y=value)) +
-    geom_boxplot(outlier.size=.5, outlier.alpha = 0.5) +
-    facet_grid(. ~ label, scales="free") +
-    xlab(NULL) +
-    ylab("") +
-    theme(strip.background=element_blank()) +
-    theme(strip.text.x=element_text(size = 20)) +
-    scale_x_discrete(limits=rev(levels)) +
-    scale_y_continuous(limits=c(0.7, 1.0),
-                       breaks=c(0.7, 0.8, 0.9, 1.0),
-                       labels=c(0.7, 0.8, 0.9, 1.0)) +
-    coord_flip()
-plot2
+ggsave(plot, file="runtime_darknet-boxplot.pdf", width=8, height=3)
 
-g1 <- ggplotGrob(plot)
-g2 <- ggplotGrob(plot2)
-g1[["grobs"]][[7]] <- g2[["grobs"]][[6]]
-
-library(grid)
-pdf("runtime_mot-boxplot.pdf", width=8, height=3)
-grid.draw(g1)
-dev.off()

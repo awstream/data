@@ -112,7 +112,7 @@ plot <- ggplot(combined, aes(x=factor(variable), y=value)) +
     geom_boxplot(outlier.size=.5, outlier.alpha = 0.5) +
     facet_grid(. ~ label, scales="free") +
     xlab("Added Network\nDelay (ms)") +
-    ylab("") +
+    ylab(NULL) +
     theme(strip.background=element_blank()) +
     theme(strip.text.x=element_text(size = 20)) +
     scale_x_discrete(limits=rev(levels)) +
