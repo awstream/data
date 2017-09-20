@@ -1,0 +1,39 @@
+#!/usr/bin/env bash
+##
+## Collection of commands used to process hls logs
+
+set -e
+
+##
+## Bandwidth
+##
+## Get timestamp
+<darknet.hls.log grep "trequest" | awk '{print $1}' | pbcopy
+
+## Get loaded
+<darknet.hls.log grep "trequest" | cut -d',' -f4 | cut -d':' -f2
+
+##
+## Latency
+##
+## Timestamp
+<darknet.hls.log grep "Parsed video" | awk '{print $1}' | pbcopy
+
+## Video segment To
+<darknet.hls.log grep "Parsed video"  | cut -d',' -f4 | \
+    sed 's/\[/ /g' | sed 's/\]/ /g' | cut -d'/' -f2 | pbcopy
+
+## Video segment From
+<darknet.hls.log grep "Parsed video"  | cut -d',' -f4 | \
+    sed 's/\[/ /g' | sed 's/\]/ /g' | cut -d'/' -f1 | cut -d':' -f2 | pbcopy
+
+## Get request time
+<darknet.hls.log grep "trequest" | cut -d',' -f1 | cut -d':' -f2 | pbcopy
+
+## Get loaded time
+<darknet.hls.log grep "trequest" | cut -d',' -f6 | sed 's/}//g' | cut -d':' -f2
+
+##
+## Accuracy
+##
+<darknet.hls.log grep "Loaded" | grep "log" | awk '{print $9}' | pbcopy

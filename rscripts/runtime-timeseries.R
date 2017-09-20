@@ -3,13 +3,14 @@
 source('prelude.R')
 library(zoo)
 
-f <- path("runtime.darknet.csv")
+f <- path("runtime.mot.csv")
 runtime.data <- read.csv(f)
 
 legends <- c("time",
              "AWStream",
              "JetStream++",
              "JetStream",
+             "HLS",
              "Streaming over TCP",
              "Streaming over UDP")
 
@@ -23,9 +24,9 @@ bw <- runtime.data[,c("time",
                       "aws.throughput",
                       "jet.throughput",
                       "js.throughput",
+                      "hls.throughput",
                       "tcp.throughput",
                       "udp.throughput")]
-bw$udp.throughput <- bw$udp.throughput / 1000
 names(bw) <- legends
 average.bw <- as.data.frame(rollapply(bw, 5, mean, by=5))
 bw.data <- melt(average.bw, id.vars="time")
@@ -48,7 +49,8 @@ x
 ##
 ## latency plot
 ##
-latency <- runtime.data[,c("time", "aws.latency", "js.latency", "jet.latency",
+latency <- runtime.data[,c("time", "aws.latency",
+                           "js.latency", "jet.latency", "hls.latency",
                            "tcp.latency", "udp.latency")]
 names(latency) <- legends
 latency <- as.data.frame(rollapply(latency, 5, mean, by=5))
@@ -74,8 +76,9 @@ latency.plot
 ##
 ## accuracy plot
 ##
-accuracy <- runtime.data[,c("time", "aws.accuracy", "jet.accuracy",
-                            "js.accuracy", "tcp.accuracy", "udp.accuracy")]
+accuracy <- runtime.data[,c("time", "aws.accuracy",
+                            "jet.accuracy", "js.accuracy",
+                            "hls.accuracy", "tcp.accuracy", "udp.accuracy")]
 accuracy <- as.data.frame(rollapply(accuracy, 5, mean, by=5))
 accuracy <- melt(accuracy, id.vars="time")
 
@@ -112,6 +115,6 @@ legend <- get_legend(bw.plot +
 p <- plot_grid(legend, pcol, ncol = 1, rel_heights = c(.2, 1))
 p
 
-pdf("runtime_darknet-timeseries.pdf", width=8, height=8)
+pdf("runtime_mot-timeseries.pdf", width=8, height=8)
 p
 dev.off()

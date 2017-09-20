@@ -2,19 +2,19 @@
 
 source('prelude.R')
 
-f <- path("runtime.darknet.csv")
+f <- path("runtime.mot.csv")
 data <- read.csv(f)
 
-variable <- c("Time", "JetStream++", "JetStream",
+variable <- c("Time", "JetStream++", "JetStream", "HLS",
               "Streaming over TCP", "Streaming over UDP",
               "AWStream")
-levels <- c("AWStream", "JetStream++", "JetStream",
+levels <- c("AWStream", "JetStream++", "JetStream", "HLS",
             "Streaming over TCP", "Streaming over UDP")
 levels <- factor(levels, levels=levels)
 
-latency.columns <- c("time", "jet.latency", "js.latency",
+latency.columns <- c("time", "jet.latency", "js.latency", "hls.latency",
                      "tcp.latency", "udp.latency", "aws.latency")
-accuracy.columns <- c("time", "jet.accuracy", "js.accuracy",
+accuracy.columns <- c("time", "jet.accuracy", "js.accuracy", "hls.accuracy",
                       "tcp.accuracy", "udp.accuracy", "aws.accuracy")
 
 ##################################
@@ -63,5 +63,5 @@ plot <- ggplot(combined, aes(x=factor(variable), y=value)) +
     coord_flip()
 plot
 
-ggsave(plot, file="runtime_darknet-boxplot.pdf", width=8, height=3)
+ggsave(plot, file="runtime_mot-boxplot.pdf", width=8, height=3)
 
