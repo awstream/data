@@ -71,7 +71,6 @@ p <- ggplot(parallel, aes(x=GPU, y=Time, fill=Variable)) +
     facet_grid(mask ~ ., scales="free") +
     geom_text(aes(label=sprintf("%0.1f", round(Time, digits = 2))),
               vjust=-.5, size=4, position=position_dodge(.9)) +
-    academic_paper_theme() +
     theme(legend.position=c(0.8, 0.8),
           legend.title = element_blank(),
           legend.direction="horizontal") +

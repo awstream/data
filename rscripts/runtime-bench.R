@@ -119,4 +119,4 @@ plot <- ggplot(combined, aes(x=factor(variable), y=value)) +
     coord_flip()
 plot
 
-ggsave("runtime_darknet-bench.pdf", plot, width=6.5, height=3)
+ggsave("runtime_darknet-bench.pdf", plot, width=8, height=2.4)
