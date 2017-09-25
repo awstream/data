@@ -50,7 +50,7 @@ p <- ggplot(merged, aes(x = bandwidth, y = accuracy)) +
     xlab("Bandwidth (Mbps)") +
     ylab("Accuracy (F1 Score)") +
     theme(legend.margin=margin(0, 0, -3, -30),
-          legend.text = element_text(size=10),
+          legend.text = element_text(size=12),
           legend.background = element_rect(fill = "white"),
           legend.key.height=unit(0.9, "line"),
           legend.key.size = unit(2, 'lines'),

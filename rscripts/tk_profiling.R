@@ -89,7 +89,7 @@ p <- ggplot(merged, aes(x = bandwidth, y = accuracy)) +
     ylab(TeX("Accuracy (Kendall's $\\tau$)")) +
     theme(legend.margin=margin(0, 0, -3, -30),
           legend.position="top",
-          legend.text = element_text(size=10),
+          legend.text = element_text(size=12),
           legend.background = element_rect(fill = "white"),
           legend.key.height=unit(0.9, "line"),
           legend.key.size = unit(2, 'lines'),
