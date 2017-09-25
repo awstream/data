@@ -1,8 +1,9 @@
 #!/usr/bin/env Rscript
 
 library(reshape2)
+source("prelude.R")
 
-online <- read.csv("online.csv", header=T)
+online <- read.csv(path("online.csv"), header=T)
 names <- c("time", "offline", "online", "online (1/10)", "online (trigger)")
 online$time <- online$time * 10
 
@@ -16,8 +17,7 @@ plot.offline <- ggplot(offline.data, aes(x=time, y=value)) +
     geom_line(linetype = 2) +
     ylim(0, 25) +
     xlab("time (seconds)") +
-    ylab("Bandwidth\n(mbps)") +
-    academic_paper_theme()
+    ylab("Bandwidth\n(Mbps)")
 plot.offline
 pdf("online1.pdf", width=2.8, height=1.6)
 plot.offline
